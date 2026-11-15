@@ -895,6 +895,11 @@
     "etag": "\"47e723038b495e09f4e46f552230ebd5\"",
     "size": 1926
   },
+  "assets/icons/grabby.webp": {
+    "url": "https://awesomemygo.dev/icons/grabby.webp",
+    "etag": "\"8b1dd7c525e1b88bdc6fb90a978abf61\"",
+    "size": 2724
+  },
   "assets/icons/grove.webp": {
     "url": "https://awesomemygo.dev/icons/grove.webp",
     "etag": "\"6011d81d983f166e058d90375c78df9d\"",
@@ -1070,11 +1075,6 @@
     "etag": "\"f5d2ab09ceaa9b46ad0e023201fb805f\"",
     "size": 1328
   },
-  "assets/icons/kando.webp": {
-    "url": "https://awesomemygo.dev/icons/kando.webp",
-    "etag": "\"7e7233aa6b406d66f86c634242c7c8a4\"",
-    "size": 2218
-  },
   "assets/icons/kanso.webp": {
     "url": "https://awesomemygo.dev/icons/kanso.webp",
     "etag": "\"ca82a54b52629dcb5d3e08d7eacc0061\"",
@@ -1230,6 +1230,11 @@
     "url": "https://awesomemygo.dev/icons/lintel.webp",
     "etag": "\"d9514e9c4e4a5cdc449e4980ac844da2\"",
     "size": 970
+  },
+  "assets/icons/litemd.webp": {
+    "url": "https://awesomemygo.dev/icons/litemd.webp",
+    "etag": "\"54574017294d0a93a34bbf317d93db4c\"",
+    "size": 2824
   },
   "assets/icons/little-reef.webp": {
     "url": "https://ailogo.yldm.ai/avatar/littlereef.webp",
@@ -3717,6 +3722,11 @@
     "etag": "\"ed80363743783ab89ed0df779279bf1b\"",
     "size": 26240
   },
+  "assets/shots/grabby.webp": {
+    "url": "https://awesomemygo.dev/shots/grabby.webp",
+    "etag": "\"2958d867ab1dc34a3c1e1062d18070dc\"",
+    "size": 53412
+  },
   "assets/shots/grove.webp": {
     "url": "https://awesomemygo.dev/shots/grove.webp",
     "etag": "\"510fc59c959607f6da444a9524056fba\"",
@@ -3892,11 +3902,6 @@
     "etag": "\"20fc0206dbe35b50f10abfd9f703e537\"",
     "size": 50818
   },
-  "assets/shots/kando.webp": {
-    "url": "https://awesomemygo.dev/shots/kando.webp",
-    "etag": "\"1867c27979dd693f5b7a81026dca95b0\"",
-    "size": 35548
-  },
   "assets/shots/kanso.webp": {
     "url": "https://awesomemygo.dev/shots/kanso.webp",
     "etag": "\"ca8e94cc8ce804acde285e8f0d0de08a\"",
@@ -4051,6 +4056,11 @@
     "url": "https://awesomemygo.dev/shots/lintel.webp",
     "etag": "\"1c125b47db737ec9106d93d0aa192f9b\"",
     "size": 4500
+  },
+  "assets/shots/litemd.webp": {
+    "url": "https://awesomemygo.dev/shots/litemd.webp",
+    "etag": "\"c45d8c7a645c25af6cb1bbeef8ca2d12\"",
+    "size": 40814
   },
   "assets/shots/little-reef.webp": {
     "url": "https://awesomemygo.dev/shots/little-reef.webp",
