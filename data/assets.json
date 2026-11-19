@@ -114,6 +114,11 @@
     "etag": "\"49f183b504942e7bace012b01463fbd2\"",
     "size": 3576
   },
+  "assets/icons/api-z.webp": {
+    "url": "https://awesomemygo.dev/icons/api-z.webp",
+    "etag": "\"37440d5a801bde33b2acf1520772fca7\"",
+    "size": 1354
+  },
   "assets/icons/apigo.webp": {
     "url": "https://ailogo.yldm.ai/avatar/apigo.webp",
     "etag": "\"6af31d5a-5830\"",
@@ -781,6 +786,11 @@
     "url": "https://awesomemygo.dev/icons/gist.webp",
     "etag": "\"c4c629de2291cffeac48a9b4c911308e\"",
     "size": 3926
+  },
+  "assets/icons/git-k.webp": {
+    "url": "https://awesomemygo.dev/icons/git-k.webp",
+    "etag": "\"82e86627caac7dfb583594c9fad0b555\"",
+    "size": 1390
   },
   "assets/icons/git-viewer.webp": {
     "url": "https://awesomemygo.dev/icons/git-viewer.webp",
@@ -2275,6 +2285,11 @@
     "etag": "\"a026c4d4bf3ce3c2e281241935290b4e\"",
     "size": 968
   },
+  "assets/icons/serval.webp": {
+    "url": "https://awesomemygo.dev/icons/serval.webp",
+    "etag": "\"3d55b6580e0a391aae25b5e93de5e0c7\"",
+    "size": 2964
+  },
   "assets/icons/sessionary.webp": {
     "url": "https://awesomemygo.dev/icons/sessionary.webp",
     "etag": "\"191ce3f25dc6ecd22305e29e77876914\"",
@@ -2782,6 +2797,11 @@
     "etag": "\"05515b82f9a66d1e38860efa878ad7e0\"",
     "size": 2448
   },
+  "assets/icons/xiaomu-desktop.webp": {
+    "url": "https://awesomemygo.dev/icons/xiaomu-desktop.webp",
+    "etag": "\"52156b22fa7e88fca9f0f9925e7c6b9c\"",
+    "size": 1498
+  },
   "assets/icons/yeek.webp": {
     "url": "https://awesomemygo.dev/icons/yeek.webp",
     "etag": "\"7c4130057543121c9235f14c212cd043\"",
@@ -2966,6 +2986,11 @@
     "url": "https://awesomemygo.dev/shots/apex-runner.webp",
     "etag": "\"8ccb80e845ab83e344a3feb8e026eefa\"",
     "size": 36872
+  },
+  "assets/shots/api-z.webp": {
+    "url": "https://awesomemygo.dev/shots/api-z.webp",
+    "etag": "\"fd575702f5b2c8cd67405a59ccd17752\"",
+    "size": 26766
   },
   "assets/shots/apigo.webp": {
     "url": "https://awesomemygo.dev/shots/apigo.webp",
@@ -3636,6 +3661,11 @@
     "url": "https://awesomemygo.dev/shots/gist.webp",
     "etag": "\"122e190d0c333aacaf9b65ad60b46b34\"",
     "size": 33612
+  },
+  "assets/shots/git-k.webp": {
+    "url": "https://awesomemygo.dev/shots/git-k.webp",
+    "etag": "\"1d41347568b5b4f8ce5753141349bb8b\"",
+    "size": 13738
   },
   "assets/shots/git-viewer.webp": {
     "url": "https://awesomemygo.dev/shots/git-viewer.webp",
@@ -5122,6 +5152,11 @@
     "etag": "\"0cc4855e1c20bbc00bdae7eab2877367\"",
     "size": 31944
   },
+  "assets/shots/serval.webp": {
+    "url": "https://awesomemygo.dev/shots/serval.webp",
+    "etag": "\"ffb9ce284a2a0c3205fe6abb21e320eb\"",
+    "size": 65474
+  },
   "assets/shots/sessionary.webp": {
     "url": "https://awesomemygo.dev/shots/sessionary.webp",
     "etag": "\"ce618cb935e2c5b167db0ba8bb9a7035\"",
@@ -5631,6 +5666,11 @@
     "url": "https://awesomemygo.dev/shots/xiangzhuan.webp",
     "etag": "\"0865835c123276465ab3c3661b395cc5\"",
     "size": 5698
+  },
+  "assets/shots/xiaomu-desktop.webp": {
+    "url": "https://awesomemygo.dev/shots/xiaomu-desktop.webp",
+    "etag": "\"4cf08618f7f3479ae5089ba361229fea\"",
+    "size": 85012
   },
   "assets/shots/yeek.webp": {
     "url": "https://awesomemygo.dev/shots/yeek.webp",
