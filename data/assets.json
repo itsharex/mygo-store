@@ -1268,6 +1268,11 @@
     "lastModified": "Tue, 10 Nov 2026 13:34:17 GMT",
     "size": 7328
   },
+  "assets/icons/liuguang-tv.webp": {
+    "url": "https://awesomemygo.dev/icons/liuguang-tv.webp",
+    "etag": "\"57ce9462737f8405cfccf0a510c4f5fd\"",
+    "size": 1294
+  },
   "assets/icons/live-calendar.webp": {
     "url": "https://awesomemygo.dev/icons/live-calendar.webp",
     "etag": "\"e6ef4992d02f4f5ef5df977ffd3dbe8c\"",
@@ -4136,6 +4141,11 @@
     "url": "https://awesomemygo.dev/shots/liubai.webp",
     "etag": "\"7585ebfbec8e7d60d9f5cebd88b40386\"",
     "size": 47622
+  },
+  "assets/shots/liuguang-tv.webp": {
+    "url": "https://awesomemygo.dev/shots/liuguang-tv.webp",
+    "etag": "\"6870c9eb3d98bcd780b1e217a898f38e\"",
+    "size": 49962
   },
   "assets/shots/live-calendar.webp": {
     "url": "https://awesomemygo.dev/shots/live-calendar.webp",
