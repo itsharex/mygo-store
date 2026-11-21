@@ -64,6 +64,42 @@ class AddIdentifiersTest(unittest.TestCase):
         self.assertNotIn("identifier", out[1])
 
 
+class LocalizedTextTest(unittest.TestCase):
+    def test_keeps_the_languages_the_store_shows(self):
+        text = sync.localized_text(
+            {"ko": "한국어", "en": "English", "zh-TW": "繁體中文", "fr": "Français", "ja": ""}
+        )
+        self.assertEqual(
+            text,
+            {"en": "English", "zh-TW": "繁體中文", "ko": "한국어"},
+        )
+
+    def test_a_single_string_is_english(self):
+        self.assertEqual(sync.localized_text("One line"), {"en": "One line"})
+
+    def test_missing_text(self):
+        self.assertEqual(sync.localized_text(None), {})
+        self.assertEqual(sync.localized_text({}), {})
+
+    def test_build_catalog_keeps_every_language(self):
+        apps = [
+            {
+                "slug": "a",
+                "name": "A",
+                "author": "o",
+                "kind": "native",
+                "url": "https://example.com/a",
+                "summary": {"en": "Summary", "zh-CN": "简介", "ja": "概要"},
+                "description": {"en": "Description", "zh-CN": "描述"},
+            }
+        ]
+        scores = {"asOf": "2030-01-01", "entries": {}}
+        catalog = sync.build_catalog(apps, scores)
+        app = catalog["apps"][0]
+        self.assertEqual(app["summary"], {"en": "Summary", "zh-CN": "简介", "ja": "概要"})
+        self.assertEqual(app["description"], {"en": "Description", "zh-CN": "描述"})
+
+
 class SyncIdentifiersTest(unittest.TestCase):
     def test_keeps_previous_and_reads_new_apps(self):
         apps = [{"slug": "a", "repo": "o/a"}, {"slug": "b", "repo": "o/b"}]

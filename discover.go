@@ -114,7 +114,8 @@ func (s *store) appRow(c *ui.Context, app *App, height float32, dupNames map[str
 	if row.Hovered() {
 		row.Background(t.SurfaceHover)
 	}
-	row.Label(msgs.AppRowLabel(app.Name, app.Summary))
+	summary := app.Summary.In(s.locale)
+	row.Label(msgs.AppRowLabel(app.Name, summary))
 	row.OnClick(func() { s.openDetail(app.Slug) })
 	row.Children(func() {
 		s.appIcon(c, app, 44)
@@ -127,7 +128,7 @@ func (s *store) appRow(c *ui.Context, app *App, height float32, dupNames map[str
 				ui.Text(c, app.kindShort(msgs)).FontSize(9).TextColor(t.TextMuted).
 					Padding(1, 4).Radius(3).Background(t.Text.Alpha(0.06)).Shrink(0)
 			})
-			ui.Text(c, app.Summary).FontSize(12).TextColor(t.TextMuted).MaxLines(2).LineHeight(1.35)
+			ui.Text(c, summary).FontSize(12).TextColor(t.TextMuted).MaxLines(2).LineHeight(1.35)
 		})
 		s.cardAction(c, t, app)
 	})

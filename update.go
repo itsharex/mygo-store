@@ -31,6 +31,9 @@ const (
 	menuLanguageSystem = "language-system"
 	menuLanguageEn     = "language-en"
 	menuLanguageZh     = "language-zh"
+	menuLanguageZhHant = "language-zh-hant"
+	menuLanguageJa     = "language-ja"
+	menuLanguageKo     = "language-ko"
 )
 
 // appMenu keeps the standard menus and adds the manual update check and
@@ -51,6 +54,12 @@ func appMenu(onLocale func(tag string)) *mygo.Menu {
 					Click: chooseLocale("en", onLocale)},
 				{ID: menuLanguageZh, Label: i18n.Autonym("zh-Hans"), Type: mygo.MenuItemRadio,
 					Click: chooseLocale("zh-Hans", onLocale)},
+				{ID: menuLanguageZhHant, Label: i18n.Autonym("zh-Hant"), Type: mygo.MenuItemRadio,
+					Click: chooseLocale("zh-Hant", onLocale)},
+				{ID: menuLanguageJa, Label: i18n.Autonym("ja"), Type: mygo.MenuItemRadio,
+					Click: chooseLocale("ja", onLocale)},
+				{ID: menuLanguageKo, Label: i18n.Autonym("ko"), Type: mygo.MenuItemRadio,
+					Click: chooseLocale("ko", onLocale)},
 			}},
 			mygo.Separator(),
 			{Role: mygo.RoleHide},
@@ -77,6 +86,9 @@ func languageChoices(msgs locales.Messages) []struct{ tag, label string } {
 		{"", msgs.LanguageSystem()},
 		{"en", i18n.Autonym("en")},
 		{"zh-Hans", i18n.Autonym("zh-Hans")},
+		{"zh-Hant", i18n.Autonym("zh-Hant")},
+		{"ja", i18n.Autonym("ja")},
+		{"ko", i18n.Autonym("ko")},
 	}
 }
 
@@ -110,6 +122,9 @@ func relabelAppMenu(menu *mygo.Menu, locale string) {
 		menuLanguageSystem: "",
 		menuLanguageEn:     "en",
 		menuLanguageZh:     "zh-Hans",
+		menuLanguageZhHant: "zh-Hant",
+		menuLanguageJa:     "ja",
+		menuLanguageKo:     "ko",
 	}
 	for id, tag := range checks {
 		if it := menu.ItemByID(id); it != nil {

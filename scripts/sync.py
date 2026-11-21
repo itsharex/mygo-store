@@ -61,6 +61,11 @@ REPO_RE = re.compile(r"^[A-Za-z0-9_.-]+$")
 GROUPS = ["agents", "dev", "ai", "network", "notes", "system", "devices", "media", "game", "chat"]
 PLATFORMS = ["win", "linux", "mac"]
 
+# The languages of the store, as the site's catalog tags them. The store's
+# own catalogs call Chinese by script (zh-Hans, zh-Hant); app text keeps
+# the site's tags, and the app picks the latter by the former.
+TEXT_LANGS = ["en", "zh-CN", "zh-TW", "ja", "ko"]
+
 # ---------------------------------------------------------------------------
 # Score: a Python port of packages/catalog/src/score.ts, so the app shows the
 # same number as the site.
@@ -208,6 +213,21 @@ def read_remote_catalog() -> tuple[list[dict], dict]:
     return apps, scores
 
 
+def localized_text(value) -> dict[str, str]:
+    """The languages of an app's summary or description, keyed by the site's
+    tags, in the order the store knows them. A catalog from before the text
+    had languages holds one string, which the store shows in any language."""
+    if isinstance(value, str):
+        return {"en": value}
+    if not isinstance(value, dict):
+        return {}
+    return {
+        tag: text
+        for tag in TEXT_LANGS
+        if isinstance(text := value.get(tag), str) and text.strip()
+    }
+
+
 def build_catalog(apps: list[dict], scores: dict) -> dict:
     as_of = scores.get("asOf", "")
     entries = scores.get("entries", {})
@@ -216,8 +236,6 @@ def build_catalog(apps: list[dict], scores: dict) -> dict:
         signals = dict(entries.get(f"app:{app['slug']}", {}))
         signals.setdefault("repo", app.get("repo"))
         platforms = app.get("platforms") or PLATFORMS
-        summary = app.get("summary", {})
-        description = app.get("description", {})
         out.append(
             {
                 "slug": app["slug"],
@@ -229,8 +247,8 @@ def build_catalog(apps: list[dict], scores: dict) -> dict:
                 "category": app.get("category"),
                 "url": app["url"],
                 "repo": app.get("repo"),
-                "summary": summary.get("zh-CN") or summary.get("en", ""),
-                "description": description.get("zh-CN") or description.get("en", ""),
+                "summary": localized_text(app.get("summary", {})),
+                "description": localized_text(app.get("description", {})),
                 "added": app.get("added"),
                 "score": score_of(signals, as_of),
                 "likes": signals.get("likes", 0),

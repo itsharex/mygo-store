@@ -34,7 +34,7 @@ func (s *store) detailView(c *ui.Context, t *ui.Theme, app *App) {
 
 			ui.Column(c).Gap(6).Children(func() {
 				ui.Text(c, msgs.About()).FontSize(17).Bold()
-				ui.Text(c, app.Description).FontSize(14).LineHeight(1.65).MaxWidth(780)
+				ui.Text(c, app.Description.In(s.locale)).FontSize(14).LineHeight(1.65).MaxWidth(780)
 			})
 
 			s.info(c, t, app)

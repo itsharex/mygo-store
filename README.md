@@ -19,7 +19,7 @@ A native cross-platform app marketplace for projects built with [MyGo](https://g
 - **Get** — detects the current OS and architecture, reads the app repository's stable GitHub Releases newest first, and downloads the best matching installer: `.dmg` or `.pkg` on macOS, `.exe` or `.msi` on Windows, `.AppImage`, `.deb` or `.rpm` on Linux, with archives such as `.zip` and `.tar.gz` as fallbacks. Checksums, symbols and other auxiliary files are skipped. The file goes to the Downloads folder under `MyGo Store` (`~/Downloads/MyGo Store` on macOS); **Show in folder** reveals it, and the button then opens it with the system. If a release has no matching asset, or the project has no repository, the official page opens instead. Installers are never run automatically.
 - **Favorites and history** — favorites, acquired apps and downloaded installer paths are saved to `state.json` in the config directory.
 - **Automatic updates** — checks about 10 seconds after launch and once a day, then offers to download, install and restart. **Check for Updates…** in the app menu and **Check for Updates** at the bottom of the sidebar also check manually. See [Updates](#updates).
-- **Languages** — English and Simplified Chinese, switched in the app menu under **Language**, or from the menu at the bottom of the sidebar where a platform shows no menu bar, as Windows with the hidden title bar. **System** follows your system language. See [Languages](#languages).
+- **Languages** — English, Simplified Chinese, Traditional Chinese, Japanese and Korean, switched in the app menu under **Language**, or from the menu at the bottom of the sidebar where a platform shows no menu bar, as Windows with the hidden title bar. App summaries, descriptions and the interface follow the choice; **System** follows your system language. See [Languages](#languages).
 - **Catalog sync** — starts from the bundled snapshot and refreshes the app list from the `catalog-latest` release in the background. See [Catalog updates](#catalog-updates).
 
 ## Requirements
@@ -58,7 +58,7 @@ Publishing an update needs the `MYGO_UPDATER_PRIVATE_KEY` repository secret. The
 
 ## Catalog updates
 
-The catalog and images are bundled with the app, so it opens instantly and works offline. `scripts/sync.py` refreshes them from the upstream catalog, and reads each app's bundle identifier from its repository so that the installed-apps scan can match an installed app exactly. A run reads identifiers only for apps it has not seen or that lost theirs (`--refresh-identifiers` reads them all again, as the daily job does on Mondays), and asks for an image again only when the host says it changed.
+The catalog and images are bundled with the app, so it opens instantly and works offline. `scripts/sync.py` refreshes them from the upstream catalog, keeping each app's summary and description in every language the site translates them to (English, Simplified Chinese, Traditional Chinese, Japanese and Korean), and reads each app's bundle identifier from its repository so that the installed-apps scan can match an installed app exactly. A run reads identifiers only for apps it has not seen or that lost theirs (`--refresh-identifiers` reads them all again, as the daily job does on Mondays), and asks for an image again only when the host says it changed.
 
 At runtime the app also keeps its catalog fresh:
 
@@ -169,14 +169,14 @@ On Windows and Linux, `Ctrl` takes the place of `⌘`.
 
 ## Languages
 
-The interface is written in English and translated to Simplified Chinese. Choose **Language** in the app menu, or at the bottom of the sidebar where a platform shows no menu bar, as Windows with the hidden title bar:
+The interface is written in English and translated to Simplified Chinese, Traditional Chinese, Japanese and Korean. Choose **Language** in the app menu, or at the bottom of the sidebar where a platform shows no menu bar, as Windows with the hidden title bar:
 
-- **System** follows your system language, and English when it is neither.
-- **English** and **简体中文** keep that language.
+- **System** follows your system language, and English when it is none of the app's languages.
+- **English**, **简体中文**, **繁體中文**, **日本語** and **한국어** keep that language.
 
-MyGo's own controls, native dialogs and the update window follow the same choice. The app remembers it in `state.json`, so the next launch starts in it.
+The app summaries and descriptions follow the same choice, in every language the Awesome MyGo catalog carries, and fall back to English where a translation is missing. Search matches the app text in every language. MyGo's own controls, native dialogs and the update window follow the same choice; MyGo translates its controls to English, Chinese and Japanese, so Korean keeps those few system strings in English. The app remembers the choice in `state.json`, so the next launch starts in it.
 
-To change a translation, edit `locales/zh-Hans.json` and run `go tool mygo generate`; `go tool mygo i18n check` verifies that both catalogs agree.
+To change a translation, edit the file in `locales/` and run `go tool mygo generate`; `go tool mygo i18n check` verifies that the catalogs agree.
 
 ## Layout
 
@@ -196,7 +196,7 @@ To change a translation, edit `locales/zh-Hans.json` and run `go tool mygo gener
 | `assets.go` | Embedded images, bitmap cache and fallbacks |
 | `prefs.go` | Favorites, acquired apps, installer paths and the saved language |
 | `icons.go` | Inline SVG icons |
-| `locales/` | English and Simplified Chinese messages |
+| `locales/` | English, Simplified Chinese, Traditional Chinese, Japanese and Korean messages |
 | `scripts/sync.py` | Catalog and image sync |
 | `*_test.go` | Headless interaction tests and snapshots |
 

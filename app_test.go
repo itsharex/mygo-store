@@ -43,7 +43,7 @@ func TestOpenDetailAndFavorite(t *testing.T) {
 	if s.detail != "denova" {
 		t.Fatalf("detail = %q after clicking an app", s.detail)
 	}
-	if !tt.HasText("关于") || !tt.HasText(app.Description) {
+	if !tt.HasText("关于") || !tt.HasText(app.Description.In("zh-Hans")) {
 		t.Errorf("detail texts %q", tt.Texts())
 	}
 
@@ -387,9 +387,9 @@ func TestSameNameRowsShowTheAuthor(t *testing.T) {
 	t.Setenv("MYGO_STORE_CONFIG", t.TempDir())
 	s := &store{
 		catalog: &Catalog{Apps: []App{
-			{Slug: "pulse", Name: "Pulse", Author: "egoist", Summary: "The original"},
-			{Slug: "pulse-fork", Name: "Pulse", Author: "the-forker", Summary: "A fork"},
-			{Slug: "solo", Name: "Solo", Author: "solo-author", Summary: "Its own"},
+			{Slug: "pulse", Name: "Pulse", Author: "egoist", Summary: Text{"en": "The original"}},
+			{Slug: "pulse-fork", Name: "Pulse", Author: "the-forker", Summary: Text{"en": "A fork"}},
+			{Slug: "solo", Name: "Solo", Author: "solo-author", Summary: Text{"en": "Its own"}},
 		}},
 		prefs:     newPrefs(),
 		images:    newImageCache(),
