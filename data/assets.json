@@ -2510,6 +2510,11 @@
     "etag": "\"550a9af90007e11583bde3549b2f6ecc\"",
     "size": 5966
   },
+  "assets/icons/tiaopinfm-fm.webp": {
+    "url": "https://awesomemygo.dev/icons/tiaopinfm-fm.webp",
+    "etag": "\"c85813586bdb5d2ffdd82779afdf7738\"",
+    "size": 2302
+  },
   "assets/icons/tiergo.webp": {
     "url": "https://awesomemygo.dev/icons/tiergo.webp",
     "etag": "\"fead97de5bc96094e4304fc3ee6382c5\"",
@@ -3764,8 +3769,8 @@
   },
   "assets/shots/goshell.webp": {
     "url": "https://awesomemygo.dev/shots/goshell.webp",
-    "etag": "\"58d01fcf381ab4d814ad0c485317fb07\"",
-    "size": 27974
+    "etag": "\"e67e4f334a5e1387bc8f3f0b5712cbb5\"",
+    "size": 34582
   },
   "assets/shots/gosidian.webp": {
     "url": "https://awesomemygo.dev/shots/gosidian.webp",
@@ -5381,6 +5386,11 @@
     "url": "https://awesomemygo.dev/shots/thunderstrike-controller-tool.webp",
     "etag": "\"0ead7de8652f896c6078ba9c88f57589\"",
     "size": 21860
+  },
+  "assets/shots/tiaopinfm-fm.webp": {
+    "url": "https://awesomemygo.dev/shots/tiaopinfm-fm.webp",
+    "etag": "\"62a9370ff001488d4f5e277996438f13\"",
+    "size": 54710
   },
   "assets/shots/tiergo.webp": {
     "url": "https://awesomemygo.dev/shots/tiergo.webp",
