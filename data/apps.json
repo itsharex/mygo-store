@@ -1,7 +1,7 @@
 {
   "source": "https://awesomemygo.dev/showcase",
   "asOf": "2026-11-22",
-  "syncedAt": "2026-11-22T11:28:20Z",
+  "syncedAt": "2026-11-23T12:48:31Z",
   "apps": [
     {
       "slug": "2048",
@@ -4224,7 +4224,7 @@
       "category": null,
       "url": "https://github.com/josexy/go-downloader",
       "repo": "josexy/go-downloader",
-      "identifier": "com.example.downloader",
+      "identifier": "io.github.josexy.shiliu",
       "summary": {
         "en": "Native download manager: resumable HTTP/HTTPS downloads, batch queues, speed limits, proxies.",
         "zh-CN": "原生下载管理器：HTTP/HTTPS 断点续传、批量排队、限速与代理。",
@@ -5165,6 +5165,43 @@
       "license": "MIT",
       "icon": "assets/icons/floater.webp",
       "shot": "assets/shots/floater.webp"
+    },
+    {
+      "slug": "flowlog",
+      "name": "FlowLog",
+      "author": "Mixsu",
+      "kind": "native",
+      "platforms": [
+        "win",
+        "linux",
+        "mac"
+      ],
+      "group": "notes",
+      "category": null,
+      "url": "https://github.com/coder-xmtx/FlowLog-Desktop",
+      "repo": "coder-xmtx/FlowLog-Desktop",
+      "identifier": "com.mixsu.flowlog",
+      "summary": {
+        "en": "A desktop log of daily study: notes by subject, chapter and key point, with the day's to-dos.",
+        "zh-CN": "记录每日学习的桌面应用：按科目、章节与要点整理学记，附带当天待办。",
+        "zh-TW": "記錄每日學習的桌面應用程式：依科目、章節與要點整理學記，附帶當天待辦。",
+        "ja": "毎日の学習を記録するデスクトップアプリ。科目・章・要点ごとに整理し、その日の ToDo も管理。",
+        "ko": "하루 공부를 기록하는 데스크톱 앱. 과목, 장, 요점별로 정리하고 그날의 할 일도 챙깁니다."
+      },
+      "description": {
+        "en": "A desktop app for logging each day's study, drawn with MyGo's native UI on the GPU, with no WebView. An entry holds a subject, chapter, section and key points you can mark as reviewed, searchable in full text, beside a separate journal, to-dos with due dates and a calendar of logged days. Data stays in a local SQLite file with daily automatic JSON backups.",
+        "zh-CN": "用 MyGo 原生 UI 在 GPU 上绘制的每日学习记录应用，不加载 WebView。每条学记包含科目、章、节和若干要点，要点可标记为已复习，并支持全文搜索；另有与学记分开的随笔、可设截止日期的待办，以及标出记录日的月历。数据保存在本地 SQLite 文件中，每天自动备份为 JSON。",
+        "zh-TW": "以 MyGo 原生 UI 在 GPU 上繪製的每日學習紀錄應用程式，不載入 WebView。每則學記包含科目、章、節和若干要點，要點可標記為已複習，並支援全文搜尋；另有與學記分開的隨筆、可設定截止日期的待辦，以及標出記錄日的月曆。資料儲存在本機 SQLite 檔案中，每天自動備份為 JSON。",
+        "ja": "MyGo のネイティブ UI で GPU 上に描かれた、毎日の学習を記録するデスクトップアプリ。WebView は使いません。記録は科目・章・節と複数の要点からなり、要点は復習済みにでき、全文検索にも対応します。学習記録とは別の随筆、期限を設定できる ToDo、記録した日に印が付くカレンダーも備えています。データはローカルの SQLite ファイルに保存され、毎日自動で JSON にバックアップされます。",
+        "ko": "MyGo의 네이티브 UI로 GPU에서 그린 하루 공부 기록 앱으로, WebView를 쓰지 않습니다. 기록마다 과목, 장, 절과 여러 요점을 담고, 요점은 복습 완료로 표시할 수 있으며 전문 검색도 됩니다. 학습 기록과 따로 쓰는 수필, 마감일을 정할 수 있는 할 일, 기록한 날이 표시되는 달력도 있습니다. 데이터는 로컬 SQLite 파일에 저장되고 매일 JSON으로 자동 백업됩니다."
+      },
+      "added": "2026-11-21T12:06:17Z",
+      "score": 33.5,
+      "likes": 0,
+      "stars": null,
+      "license": null,
+      "icon": "assets/icons/flowlog.webp",
+      "shot": "assets/shots/flowlog.webp"
     },
     {
       "slug": "fnmovie",
@@ -10257,6 +10294,42 @@
       "shot": "assets/shots/meridian.webp"
     },
     {
+      "slug": "metrix-bar",
+      "name": "Metrix.Bar",
+      "author": "miantiao-me",
+      "kind": "native",
+      "platforms": [
+        "win",
+        "linux",
+        "mac"
+      ],
+      "group": "system",
+      "category": "UtilitiesApplication",
+      "url": "https://metrix.bar",
+      "repo": null,
+      "summary": {
+        "en": "Native dashboards for the menu bar, notch and widgets, built from one .bar file.",
+        "zh-CN": "用一个 .bar 文件做原生菜单栏、刘海屏与小组件看板。",
+        "zh-TW": "用一個 .bar 檔案做原生選單列、瀏海與小工具看板。",
+        "ja": "1 つの .bar ファイルで、ネイティブなメニューバー、ノッチ、ウィジェットのダッシュボードを作れます。",
+        "ko": "하나의 .bar 파일로 네이티브 메뉴 막대, 노치, 위젯 대시보드를 만듭니다."
+      },
+      "description": {
+        "en": "Metrix.Bar runs native dashboards in the menu bar or system tray, the notch, screen sidebars and system widgets on macOS, Windows and Linux (experimental). Each dashboard is one .bar file: start with an official one for Claude Code, GitHub, music or web analytics, or describe your own to Claude Code, Codex or Cursor.",
+        "zh-CN": "Metrix.Bar 在 macOS、Windows 与 Linux（体验版）上运行原生看板，可显示在菜单栏或系统托盘、刘海屏、屏幕侧栏和系统小组件中。每个看板都是一个 .bar 文件：可以从 Claude Code、GitHub、音乐或网站分析的官方看板开始，也可以把想要的内容讲给 Claude Code、Codex 或 Cursor 听。",
+        "zh-TW": "Metrix.Bar 在 macOS、Windows 與 Linux（體驗版）上執行原生看板，可顯示在選單列或系統匣、瀏海、螢幕側欄和系統小工具中。每個看板都是一個 .bar 檔案：可以從 Claude Code、GitHub、音樂或網站分析的官方看板開始，也可以把想要的內容講給 Claude Code、Codex 或 Cursor 聽。",
+        "ja": "Metrix.Bar は macOS、Windows、Linux（実験版）でネイティブなダッシュボードを動かし、メニューバーやシステムトレイ、ノッチ、画面サイドバー、システムウィジェットに表示できます。各ダッシュボードは 1 つの .bar ファイルです。Claude Code、GitHub、音楽、アクセス解析の公式ダッシュボードから始めることも、Claude Code、Codex、Cursor に作りたいものを伝えることもできます。",
+        "ko": "Metrix.Bar는 macOS, Windows, Linux(실험판)에서 네이티브 대시보드를 실행하며 메뉴 막대나 시스템 트레이, 노치, 화면 사이드바, 시스템 위젯에 표시할 수 있습니다. 각 대시보드는 하나의 .bar 파일입니다. Claude Code, GitHub, 음악, 웹 분석 공식 대시보드로 시작하거나 Claude Code, Codex, Cursor에게 원하는 대시보드를 설명할 수 있습니다."
+      },
+      "added": "2026-11-21T05:07:01Z",
+      "score": 32.5,
+      "likes": 0,
+      "stars": null,
+      "license": null,
+      "icon": "assets/icons/metrix-bar.webp",
+      "shot": "assets/shots/metrix-bar.webp"
+    },
+    {
       "slug": "miaomiao-todo",
       "name": "喵喵の清单",
       "author": "rppig42",
@@ -12351,7 +12424,7 @@
       "category": "UtilitiesApplication",
       "url": "https://github.com/Jonkimi/mygo-naive-client",
       "repo": "Jonkimi/mygo-naive-client",
-      "identifier": "dev.egoist.naiveclient",
+      "identifier": "com.jonkimi.naiveclient",
       "summary": {
         "en": "A native desktop client that runs several NaiveProxy services at once, with speed tests and logs.",
         "zh-CN": "原生 NaiveProxy 桌面客户端：同时运行多个服务，支持测速、日志与链接导入。",
@@ -13862,7 +13935,7 @@
       "category": null,
       "url": "https://github.com/xiyaowong/outrash",
       "repo": "xiyaowong/outrash",
-      "identifier": "io.github.xiyaowong.outrash",
+      "identifier": "com.vleny.outrash",
       "summary": {
         "en": "Scans the rebuildable caches your tools leave behind and clears the ones you check, offline.",
         "zh-CN": "跨平台缓存清理工具：扫描各程序留下的可重建缓存，勾选后一次清掉，离线运行。",
@@ -15227,6 +15300,80 @@
       "license": "GPL-3.0",
       "icon": "assets/icons/radio-desktop.webp",
       "shot": "assets/shots/radio-desktop.webp"
+    },
+    {
+      "slug": "ragle",
+      "name": "Ragle",
+      "author": "Batkixni",
+      "kind": "native",
+      "platforms": [
+        "win",
+        "linux",
+        "mac"
+      ],
+      "group": "system",
+      "category": null,
+      "url": "https://github.com/Batkixni/Ragle",
+      "repo": "Batkixni/Ragle",
+      "identifier": "dev.raglex.app",
+      "summary": {
+        "en": "A local design asset manager like Eagle, with moodboards that float on top like PureRef.",
+        "zh-CN": "类似 Eagle 的本地设计素材管理器，带无限画板和 PureRef 式置顶参考窗口。",
+        "zh-TW": "類似 Eagle 的本機設計素材管理器，帶無限白板與 PureRef 式置頂參考視窗。",
+        "ja": "Eagle 風のローカルなデザイン素材管理アプリ。ムードボードを PureRef のように最前面に表示。",
+        "ko": "Eagle처럼 쓰는 로컬 디자인 에셋 관리자. 무드보드를 PureRef처럼 항상 위에 띄웁니다."
+      },
+      "description": {
+        "en": "A design asset manager for macOS, Windows and Linux, drawn with MyGo's native UI, with no Electron and one local bbolt database on disk. It imports files by index, symlink, move or copy, previews fonts, audio, SVG and PDF inline, and finds similar images and colors offline. Moodboards can pop out into a frameless, always-on-top window like PureRef.",
+        "zh-CN": "用 MyGo 原生 UI 绘制的设计素材管理器，适用于 macOS、Windows 与 Linux，没有 Electron，所有数据存放在本地的单一 bbolt 数据库中。可按索引、符号链接、移动或复制方式导入文件，直接预览字体、音频、SVG 与 PDF，并能离线按视觉相似度和颜色搜索。无限画板可弹出为无边框、始终置顶的参考窗口，用法类似 PureRef。",
+        "zh-TW": "以 MyGo 原生 UI 繪製的設計素材管理器，支援 macOS、Windows 與 Linux，沒有 Electron，所有資料都存在本機的單一 bbolt 資料庫中。可用索引、符號連結、移動或複製的方式匯入檔案，直接預覽字型、音訊、SVG 與 PDF，並能離線依視覺相似度與顏色搜尋。無限白板可彈出成無邊框、永遠置頂的參考視窗，用法類似 PureRef。",
+        "ja": "MyGo のネイティブ UI で描かれた、macOS・Windows・Linux 向けのデザイン素材管理アプリ。Electron は使わず、データはローカルの bbolt データベース一つに保存されます。ファイルはインデックス、シンボリックリンク、移動、コピーで取り込め、フォント・音声・SVG・PDF をその場でプレビューし、見た目の類似や色でオフライン検索できます。無限のムードボードは、PureRef のように枠のない最前面ウィンドウとして切り出せます。",
+        "ko": "MyGo의 네이티브 UI로 그린 macOS·Windows·Linux용 디자인 에셋 관리자입니다. Electron 없이 데이터를 로컬의 bbolt 데이터베이스 하나에 저장합니다. 파일을 인덱스, 심볼릭 링크, 이동, 복사로 가져오고, 글꼴·오디오·SVG·PDF를 바로 미리 보며, 시각적 유사도와 색상으로 오프라인 검색할 수 있습니다. 무한 무드보드는 PureRef처럼 테두리 없이 항상 위에 뜨는 창으로 띄웁니다."
+      },
+      "added": "2026-11-22T14:58:00Z",
+      "score": 33.5,
+      "likes": 0,
+      "stars": null,
+      "license": null,
+      "icon": "assets/icons/ragle.webp",
+      "shot": "assets/shots/ragle.webp"
+    },
+    {
+      "slug": "raglex",
+      "name": "Raglex",
+      "author": "Batkixni",
+      "kind": "native",
+      "platforms": [
+        "win",
+        "linux",
+        "mac"
+      ],
+      "group": "media",
+      "category": "DesignApplication",
+      "url": "https://ranglex.sorai.tw",
+      "repo": "Batkixni/Raglex",
+      "identifier": "dev.raglex.app",
+      "summary": {
+        "en": "A local design asset manager like Eagle, with moodboards that float on top like PureRef.",
+        "zh-CN": "类似 Eagle 的本地设计素材管理器，带无限画板和 PureRef 式置顶参考窗口。",
+        "zh-TW": "類似 Eagle 的本機設計素材管理器，帶無限白板與 PureRef 式置頂參考視窗。",
+        "ja": "Eagle 風のローカルなデザイン素材管理アプリ。ムードボードを PureRef のように最前面に表示。",
+        "ko": "Eagle처럼 쓰는 로컬 디자인 에셋 관리자. 무드보드를 PureRef처럼 항상 위에 띄웁니다."
+      },
+      "description": {
+        "en": "A design asset manager for macOS, Windows and Linux, drawn with MyGo's native UI, with no Electron and one local bbolt database on disk. It imports files by index, symlink, move or copy, previews fonts, audio, SVG and PDF inline, and finds similar images and colors offline. Moodboards can pop out into a frameless, always-on-top window like PureRef.",
+        "zh-CN": "用 MyGo 原生 UI 绘制的设计素材管理器，适用于 macOS、Windows 与 Linux，没有 Electron，所有数据存放在本地的单一 bbolt 数据库中。可按索引、符号链接、移动或复制方式导入文件，直接预览字体、音频、SVG 与 PDF，并能离线按视觉相似度和颜色搜索。无限画板可弹出为无边框、始终置顶的参考窗口，用法类似 PureRef。",
+        "zh-TW": "以 MyGo 原生 UI 繪製的設計素材管理器，支援 macOS、Windows 與 Linux，沒有 Electron，所有資料都存在本機的單一 bbolt 資料庫中。可用索引、符號連結、移動或複製的方式匯入檔案，直接預覽字型、音訊、SVG 與 PDF，並能離線依視覺相似度與顏色搜尋。無限白板可彈出成無邊框、永遠置頂的參考視窗，用法類似 PureRef。",
+        "ja": "MyGo のネイティブ UI で描かれた、macOS・Windows・Linux 向けのデザイン素材管理アプリ。Electron は使わず、データはローカルの bbolt データベース一つに保存されます。ファイルはインデックス、シンボリックリンク、移動、コピーで取り込め、フォント・音声・SVG・PDF をその場でプレビューし、見た目の類似や色でオフライン検索できます。無限のムードボードは、PureRef のように枠のない最前面ウィンドウとして切り出せます。",
+        "ko": "MyGo의 네이티브 UI로 그린 macOS·Windows·Linux용 디자인 에셋 관리자입니다. Electron 없이 데이터를 로컬의 bbolt 데이터베이스 하나에 저장합니다. 파일을 인덱스, 심볼릭 링크, 이동, 복사로 가져오고, 글꼴·오디오·SVG·PDF를 바로 미리 보며, 시각적 유사도와 색상으로 오프라인 검색할 수 있습니다. 무한 무드보드는 PureRef처럼 테두리 없이 항상 위에 뜨는 창으로 띄웁니다."
+      },
+      "added": "2026-11-22T14:58:00Z",
+      "score": 33.5,
+      "likes": 0,
+      "stars": null,
+      "license": null,
+      "icon": "assets/icons/raglex.webp",
+      "shot": "assets/shots/raglex.webp"
     },
     {
       "slug": "rainforest",
@@ -17016,6 +17163,38 @@
       "shot": "assets/shots/sona.webp"
     },
     {
+      "slug": "sonora",
+      "name": "Sonora",
+      "author": "hfx123456",
+      "kind": "native",
+      "platforms": [
+        "win",
+        "mac"
+      ],
+      "group": "media",
+      "category": "MultimediaApplication",
+      "url": "https://github.com/hfx123456/Sonora",
+      "repo": "hfx123456/Sonora",
+      "summary": {
+        "en": "Windows & macOS Spotify & 6-cloud music player with bilingual lyrics, Dynamic Island & Flow.",
+        "zh-CN": "支持 6 大个人音乐云盘、双语逐字歌词、跨屏灵动岛与流光背景的 Windows / macOS 播放器。",
+        "zh-TW": "支援 6 大個人音樂雲端、雙語逐字歌詞、跨螢幕靈動島與流光背景的 Windows / macOS 播放器。",
+        "ja": "6 つのクラウド音楽ドライブ・二言語歌詞・マルチモニター対応アイランド・Flow 背景を備えた音楽プレーヤー。",
+        "ko": "6대 클라우드 음악 드라이브, 이중 언어 가사, 다이내믹 아일랜드, Flow 배경을 지원하는 플레이어."
+      },
+      "description": {
+        "en": "An independent fork of MySpotify for Windows and macOS built with MyGo's native UI. Adds a personal Cloud Music Disk supporting 6 providers (OneDrive, Google Drive, Baidu Netdisk, Quark Drive, 115 Drive, WebDAV) with visual folder picking, play-while-caching, and automatic matching for local Spotify playlist tracks, alongside an embedded multi-source bilingual lyrics engine (NetEase, QQ Music, LRCLIB), a draggable multi-monitor Dynamic Island with instant click-through unlock, word-timed bilingual stage animations, Apple Music-style GPU Flow backdrop, iOS-style Liquid Glass controls, unified track covers, and sticky playlist search.",
+        "zh-CN": "基于 MyGo 原生界面开发的独立定制版播放器，支持 Windows 与 macOS。新增 6 大个人音乐云盘直连（OneDrive、Google Drive、百度网盘、夸克网盘、115 网盘、WebDAV），支持可视化选目录、边播边缓存与自动点亮歌单灰歌；内置多源双语逐字歌词（网易云、QQ 音乐、LRCLIB）、自由拖动跨屏灵动岛与锁定悬停解锁、Apple Music 风格 GPU 流光背景、iOS 风格液态玻璃控件、统一专辑封面与歌单简繁吸顶搜索。"
+      },
+      "added": "2026-11-21T12:53:00Z",
+      "score": 33.5,
+      "likes": 0,
+      "stars": null,
+      "license": null,
+      "icon": "assets/icons/sonora.webp",
+      "shot": "assets/shots/sonora.webp"
+    },
+    {
       "slug": "spark",
       "name": "Spark",
       "author": "zackzhou-work",
@@ -18492,7 +18671,7 @@
       "category": "DeveloperApplication",
       "url": "https://github.com/zrcoder/ttoy",
       "repo": "zrcoder/ttoy",
-      "identifier": "com.example.ttoy",
+      "identifier": "edu.example.ttoy",
       "summary": {
         "en": "A native desktop app that puts developer tools and mini-games in one place.",
         "zh-CN": "把开发者工具和小游戏放在一起的原生桌面应用。",
@@ -18549,6 +18728,43 @@
       "license": null,
       "icon": "assets/icons/tuck.webp",
       "shot": "assets/shots/tuck.webp"
+    },
+    {
+      "slug": "tv-liuguangtv",
+      "name": "流光 TV（LiuguangTV）",
+      "author": "tangqiu0205",
+      "kind": "native",
+      "platforms": [
+        "win",
+        "linux",
+        "mac"
+      ],
+      "group": "media",
+      "category": null,
+      "url": "https://github.com/tangqiu0205/liuguang-tv",
+      "repo": "tangqiu0205/liuguang-tv",
+      "identifier": "io.github.tangqiu0205.liuguangtv",
+      "summary": {
+        "en": "An IPTV player with a native UI that plays M3U channel lists through mpv or a built-in WebView.",
+        "zh-CN": "原生界面的 IPTV 播放器，用 mpv 或内置 WebView 播放 M3U 频道。",
+        "zh-TW": "原生介面的 IPTV 播放器，用 mpv 或內建 WebView 播放 M3U 頻道。",
+        "ja": "ネイティブ UI の IPTV プレーヤー。mpv か内蔵 WebView でチャンネルを再生。",
+        "ko": "네이티브 UI의 IPTV 플레이어. M3U 채널을 mpv나 내장 WebView로 재생합니다."
+      },
+      "description": {
+        "en": "An IPTV desktop client with channels, settings and controls in MyGo's native UI; video plays in mpv, which you install yourself, or in a built-in WebView. It loads channel lists from HTTP(S) or local M3U, M3U8 and TXT files and XMLTV program guides, filters by group and favorites, and merges a channel's alternate streams. It comes with no channel sources.",
+        "zh-CN": "一款 IPTV 桌面客户端，频道、设置与播放控制用 MyGo 原生 UI 绘制，视频由需自行安装的 mpv 或内置 WebView 播放。频道订阅支持 HTTP(S) 或本地 M3U、M3U8、TXT，节目单支持 XMLTV，可按分组和收藏筛选，并合并同一频道的多条线路。应用不预置任何节目源。",
+        "zh-TW": "一款 IPTV 桌面用戶端，頻道、設定與播放控制以 MyGo 原生 UI 繪製，影片由需自行安裝的 mpv 或內建 WebView 播放。頻道訂閱支援 HTTP(S) 或本機 M3U、M3U8、TXT，節目表支援 XMLTV，可依分組和收藏篩選，並合併同一頻道的多條線路。應用程式不預載任何節目來源。",
+        "ja": "チャンネル一覧、設定、再生操作を MyGo のネイティブ UI で描いた IPTV デスクトップクライアント。映像は各自でインストールした mpv か内蔵 WebView で再生します。HTTP(S) またはローカルの M3U・M3U8・TXT のチャンネルリストと XMLTV の番組表を読み込み、グループやお気に入りで絞り込み、同じチャンネルの複数の配信元をまとめます。番組ソースは同梱していません。",
+        "ko": "채널 목록, 설정, 재생 조작을 MyGo의 네이티브 UI로 그린 IPTV 데스크톱 클라이언트로, 영상은 직접 설치한 mpv나 내장 WebView로 재생합니다. HTTP(S) 또는 로컬 M3U, M3U8, TXT 채널 목록과 XMLTV 편성표를 불러오고, 그룹과 즐겨찾기로 거르며, 같은 채널의 여러 스트림을 하나로 묶습니다. 채널 소스는 기본 제공하지 않습니다."
+      },
+      "added": "2026-11-20T03:41:53Z",
+      "score": 33.5,
+      "likes": 0,
+      "stars": null,
+      "license": null,
+      "icon": "assets/icons/tv-liuguangtv.webp",
+      "shot": "assets/shots/tv-liuguangtv.webp"
     },
     {
       "slug": "twill",
@@ -19442,7 +19658,7 @@
       "category": null,
       "url": "https://github.com/hehehai/VoxtMini",
       "repo": "hehehai/VoxtMini",
-      "identifier": "dev.hehehai.voxtnew",
+      "identifier": "dev.hehehai.voxtmini",
       "summary": {
         "en": "Local-model voice input for macOS: transcribe, translate or rewrite text at your cursor.",
         "zh-CN": "只用本地模型的 macOS 语音输入：在光标处转录、翻译或改写文字。",
