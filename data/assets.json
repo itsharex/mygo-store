@@ -2140,11 +2140,6 @@
     "etag": "\"c3af9424c02c2c8a4b607d56f1cf938e\"",
     "size": 2706
   },
-  "assets/icons/ragle.webp": {
-    "url": "https://awesomemygo.dev/icons/ragle.webp",
-    "etag": "\"ddc26c1fca14962fb7c1c645664e05aa\"",
-    "size": 2464
-  },
   "assets/icons/raglex.webp": {
     "url": "https://awesomemygo.dev/icons/raglex.webp",
     "etag": "\"ddc26c1fca14962fb7c1c645664e05aa\"",
@@ -2549,6 +2544,11 @@
     "url": "https://awesomemygo.dev/icons/tiktok-live-recorder.webp",
     "etag": "\"2afe9da60f68c01fd0ea0cc0f52d60c5\"",
     "size": 1704
+  },
+  "assets/icons/time-to-stand.webp": {
+    "url": "https://awesomemygo.dev/icons/time-to-stand.webp",
+    "etag": "\"1972509ddd98fbad62fd0cfc104cf742\"",
+    "size": 3040
   },
   "assets/icons/tingsub.webp": {
     "url": "https://awesomemygo.dev/icons/tingsub.webp",
@@ -3391,6 +3391,11 @@
     "url": "https://awesomemygo.dev/shots/cpa-bar.webp",
     "etag": "\"7aa131c8140a69d73cb30e7d74f04480\"",
     "size": 38658
+  },
+  "assets/shots/crewbase.webp": {
+    "url": "https://awesomemygo.dev/shots/crewbase.webp",
+    "etag": "\"0def90974038d76855acc4c0e90d99b1\"",
+    "size": 90860
   },
   "assets/shots/crypto-panel.webp": {
     "url": "https://awesomemygo.dev/shots/crypto-panel.webp",
@@ -5047,11 +5052,6 @@
     "etag": "\"23bf7cb44dec1de728f043325694abbd\"",
     "size": 34102
   },
-  "assets/shots/ragle.webp": {
-    "url": "https://awesomemygo.dev/shots/ragle.webp",
-    "etag": "\"3c735249a5bfaea477673c11e8e8a4ac\"",
-    "size": 92084
-  },
   "assets/shots/raglex.webp": {
     "url": "https://awesomemygo.dev/shots/raglex.webp",
     "etag": "\"3c735249a5bfaea477673c11e8e8a4ac\"",
@@ -5456,6 +5456,11 @@
     "url": "https://awesomemygo.dev/shots/tiktok-live-recorder.webp",
     "etag": "\"1c2d8150a499c6048834a8e97271af0e\"",
     "size": 29074
+  },
+  "assets/shots/time-to-stand.webp": {
+    "url": "https://awesomemygo.dev/shots/time-to-stand.webp",
+    "etag": "\"1a11627fb624d5bd48c86a34afa11a92\"",
+    "size": 46164
   },
   "assets/shots/tingsub.webp": {
     "url": "https://awesomemygo.dev/shots/tingsub.webp",

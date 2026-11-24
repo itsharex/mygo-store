@@ -1,7 +1,7 @@
 {
   "source": "https://awesomemygo.dev/showcase",
   "asOf": "2026-11-22",
-  "syncedAt": "2026-11-23T12:48:31Z",
+  "syncedAt": "2026-11-24T13:46:04Z",
   "apps": [
     {
       "slug": "2048",
@@ -3427,6 +3427,36 @@
       "license": "AGPL-3.0",
       "icon": "assets/icons/cpa-bar.webp",
       "shot": "assets/shots/cpa-bar.webp"
+    },
+    {
+      "slug": "crewbase",
+      "name": "Crewbase",
+      "author": "hedeqiang",
+      "kind": "web",
+      "platforms": [
+        "mac",
+        "win",
+        "linux"
+      ],
+      "group": "agents",
+      "category": null,
+      "url": "https://github.com/hedeqiang/crewbase/releases/latest",
+      "repo": "hedeqiang/crewbase",
+      "summary": {
+        "en": "A local-first, model-agnostic desktop workspace for teams of AI agents.",
+        "zh-CN": "面向 AI Agent 团队的本地优先桌面工作区，支持多种模型。"
+      },
+      "description": {
+        "en": "Coordinate AI agents with separate workspaces and permissions. Agents can work in parallel on separate Git worktrees and review changes before merging. Install on macOS with brew install --cask hedeqiang/tap/crewbase, or download a desktop installer from Releases.",
+        "zh-CN": "让多个 AI Agent 在各自的工作区和权限范围内协作，使用独立的 Git worktree 并行开发，并在合入前互相评审。macOS 可通过 brew install --cask hedeqiang/tap/crewbase 安装，也可以前往 Releases 下载桌面安装包。"
+      },
+      "added": "2026-11-22T15:34:55Z",
+      "score": 33.5,
+      "likes": 0,
+      "stars": null,
+      "license": null,
+      "icon": null,
+      "shot": "assets/shots/crewbase.webp"
     },
     {
       "slug": "crypto-panel",
@@ -15302,43 +15332,6 @@
       "shot": "assets/shots/radio-desktop.webp"
     },
     {
-      "slug": "ragle",
-      "name": "Ragle",
-      "author": "Batkixni",
-      "kind": "native",
-      "platforms": [
-        "win",
-        "linux",
-        "mac"
-      ],
-      "group": "system",
-      "category": null,
-      "url": "https://github.com/Batkixni/Ragle",
-      "repo": "Batkixni/Ragle",
-      "identifier": "dev.raglex.app",
-      "summary": {
-        "en": "A local design asset manager like Eagle, with moodboards that float on top like PureRef.",
-        "zh-CN": "类似 Eagle 的本地设计素材管理器，带无限画板和 PureRef 式置顶参考窗口。",
-        "zh-TW": "類似 Eagle 的本機設計素材管理器，帶無限白板與 PureRef 式置頂參考視窗。",
-        "ja": "Eagle 風のローカルなデザイン素材管理アプリ。ムードボードを PureRef のように最前面に表示。",
-        "ko": "Eagle처럼 쓰는 로컬 디자인 에셋 관리자. 무드보드를 PureRef처럼 항상 위에 띄웁니다."
-      },
-      "description": {
-        "en": "A design asset manager for macOS, Windows and Linux, drawn with MyGo's native UI, with no Electron and one local bbolt database on disk. It imports files by index, symlink, move or copy, previews fonts, audio, SVG and PDF inline, and finds similar images and colors offline. Moodboards can pop out into a frameless, always-on-top window like PureRef.",
-        "zh-CN": "用 MyGo 原生 UI 绘制的设计素材管理器，适用于 macOS、Windows 与 Linux，没有 Electron，所有数据存放在本地的单一 bbolt 数据库中。可按索引、符号链接、移动或复制方式导入文件，直接预览字体、音频、SVG 与 PDF，并能离线按视觉相似度和颜色搜索。无限画板可弹出为无边框、始终置顶的参考窗口，用法类似 PureRef。",
-        "zh-TW": "以 MyGo 原生 UI 繪製的設計素材管理器，支援 macOS、Windows 與 Linux，沒有 Electron，所有資料都存在本機的單一 bbolt 資料庫中。可用索引、符號連結、移動或複製的方式匯入檔案，直接預覽字型、音訊、SVG 與 PDF，並能離線依視覺相似度與顏色搜尋。無限白板可彈出成無邊框、永遠置頂的參考視窗，用法類似 PureRef。",
-        "ja": "MyGo のネイティブ UI で描かれた、macOS・Windows・Linux 向けのデザイン素材管理アプリ。Electron は使わず、データはローカルの bbolt データベース一つに保存されます。ファイルはインデックス、シンボリックリンク、移動、コピーで取り込め、フォント・音声・SVG・PDF をその場でプレビューし、見た目の類似や色でオフライン検索できます。無限のムードボードは、PureRef のように枠のない最前面ウィンドウとして切り出せます。",
-        "ko": "MyGo의 네이티브 UI로 그린 macOS·Windows·Linux용 디자인 에셋 관리자입니다. Electron 없이 데이터를 로컬의 bbolt 데이터베이스 하나에 저장합니다. 파일을 인덱스, 심볼릭 링크, 이동, 복사로 가져오고, 글꼴·오디오·SVG·PDF를 바로 미리 보며, 시각적 유사도와 색상으로 오프라인 검색할 수 있습니다. 무한 무드보드는 PureRef처럼 테두리 없이 항상 위에 뜨는 창으로 띄웁니다."
-      },
-      "added": "2026-11-22T14:58:00Z",
-      "score": 33.5,
-      "likes": 0,
-      "stars": null,
-      "license": null,
-      "icon": "assets/icons/ragle.webp",
-      "shot": "assets/shots/ragle.webp"
-    },
-    {
       "slug": "raglex",
       "name": "Raglex",
       "author": "Batkixni",
@@ -17175,6 +17168,7 @@
       "category": "MultimediaApplication",
       "url": "https://github.com/hfx123456/Sonora",
       "repo": "hfx123456/Sonora",
+      "identifier": "dev.hfx123456.sonora",
       "summary": {
         "en": "Windows & macOS Spotify & 6-cloud music player with bilingual lyrics, Dynamic Island & Flow.",
         "zh-CN": "支持 6 大个人音乐云盘、双语逐字歌词、跨屏灵动岛与流光背景的 Windows / macOS 播放器。",
@@ -18229,6 +18223,36 @@
       "license": "MIT",
       "icon": "assets/icons/tiktok-live-recorder.webp",
       "shot": "assets/shots/tiktok-live-recorder.webp"
+    },
+    {
+      "slug": "time-to-stand",
+      "name": "Time To Stand",
+      "author": "Salam Hiyali",
+      "kind": "native",
+      "platforms": [
+        "win",
+        "linux",
+        "mac"
+      ],
+      "group": "system",
+      "category": null,
+      "url": "https://hiyali.github.io/time-to-stand-releases/",
+      "repo": null,
+      "summary": {
+        "en": "Focus and breaks, in rhythm. Menu-bar work timer that nudges you to stand when focus time is up.",
+        "zh-CN": "专注与休息，交替进行。菜单栏工时工具：到期提醒站起；锁屏自动休息；支持快捷键与今日汇总。"
+      },
+      "description": {
+        "en": "Focus and breaks, in rhythm. Menu-bar work timer that nudges you to stand when focus time is up.",
+        "zh-CN": "专注与休息，交替进行。菜单栏工时工具：到期提醒站起；锁屏自动休息；支持快捷键与今日汇总。"
+      },
+      "added": "2026-11-19T08:08:34Z",
+      "score": 32.5,
+      "likes": 0,
+      "stars": null,
+      "license": null,
+      "icon": "assets/icons/time-to-stand.webp",
+      "shot": "assets/shots/time-to-stand.webp"
     },
     {
       "slug": "tingsub",
