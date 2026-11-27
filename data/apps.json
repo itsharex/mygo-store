@@ -1,7 +1,7 @@
 {
   "source": "https://awesomemygo.dev/showcase",
-  "asOf": "2026-11-26",
-  "syncedAt": "2026-11-26T12:38:15Z",
+  "asOf": "2026-11-27",
+  "syncedAt": "2026-11-27T12:25:16Z",
   "apps": [
     {
       "slug": "2048",
@@ -70,8 +70,8 @@
         "ko": "51Code는 일상적인 Git 작업을 위해 Go와 MyGo Native UI로 만든 클라이언트입니다. 헝크 또는 줄 단위 스테이징, 통합 및 나란히 보기 diff, 커밋 그래프 검색, 브랜치·태그·스태시·워크트리 관리, 병합 충돌 해결, 원격 저장소 동기화를 지원합니다."
       },
       "added": "2026-11-15T02:30:04Z",
-      "score": 57.8,
-      "likes": 0,
+      "score": 60.4,
+      "likes": 1,
       "stars": 7,
       "license": "AGPL-3.0",
       "icon": "assets/icons/51code.webp",
@@ -353,9 +353,9 @@
         "ko": "로컬 Python 엔진의 데스크톱 클라이언트로, MyGo의 네이티브 UI로 그렸습니다. 엔진은 한 줄 아이디어나 PRD로 Agent 아키텍처 계획을 세우고 확인할 질문과 컴포넌트 선택 이유를 정리합니다. 코드 골격은 Codex, Claude Code 같은 내 AI 코딩 도구가 쓰고, 엔진이 PRD와 대조해 검수합니다. 엔진 자체는 Python으로 따로 만들어졌고 DeepSeek 등 모델의 API 키가 필요합니다."
       },
       "added": "2026-11-11T02:28:27Z",
-      "score": 64.1,
+      "score": 64.2,
       "likes": 0,
-      "stars": 38,
+      "stars": 39,
       "license": "MIT",
       "icon": "assets/icons/agent-workshop.webp",
       "shot": "assets/shots/agent-workshop.webp"
@@ -599,9 +599,9 @@
         "ko": "OpenAI, Anthropic, Gemini 클라이언트와 Claude Code, Codex 같은 코딩 에이전트에 하나의 엔드포인트를 제공하는 로컬 게이트웨이입니다. 뒤에서는 API 키나 ChatGPT, GitHub Copilot 같은 구독을 사용합니다. 프로토콜 간 변환과 업스트림 실패 시 다음 후보로의 전환을 처리하고, 요청마다 토큰 사용량과 비용을 내장 대시보드에 기록합니다. CLI와 macOS, Linux, Windows용 데스크톱 앱으로 제공됩니다."
       },
       "added": "2026-11-05T01:50:45Z",
-      "score": 64.9,
+      "score": 65.1,
       "likes": 0,
-      "stars": 19,
+      "stars": 20,
       "license": "MIT",
       "icon": "assets/icons/aio-proxy.webp",
       "shot": "assets/shots/aio-proxy.webp"
@@ -989,7 +989,7 @@
         "ko": "MyGo의 네이티브 UI로 그린 macOS 메뉴 막대 앱이자 CLI로, 로컬 명령을 cron 일정이나 고정 간격, 또는 수동으로 실행하고 실행마다 상태, 종료 코드, 로그를 로컬 SQLite에 남깁니다. CLI는 버전이 붙은 JSON과 정해진 종료 코드를 돌려주어 스크립트나 Codex, Claude Code 같은 에이전트가 다루기 쉽습니다. 계정이나 클라우드 서비스가 필요 없으며, 배포 빌드는 Apple Silicon용입니다."
       },
       "added": "2026-11-13T02:27:52Z",
-      "score": 51.7,
+      "score": 52.2,
       "likes": 0,
       "stars": 2,
       "license": "MIT",
@@ -1026,9 +1026,9 @@
         "ko": "macOS, Windows, Linux용 리치 텍스트 문서 편집기로, 화면 전체를 MyGo의 네이티브 UI로 그리며 WebView나 Electron을 쓰지 않습니다. Arc처럼 폴더마다 고유한 색의 스페이스, 세로 사이드바, 스페이스를 넘나드는 즐겨찾기를 두고, 표, 백링크, 전체 텍스트 검색, 최대 4개 문서 분할 편집을 지원합니다. Markdown을 가져오고 내보낼 수 있으며, 현재 초기 프리뷰 단계입니다."
       },
       "added": "2026-11-09T10:04:43Z",
-      "score": 85.8,
+      "score": 86.4,
       "likes": 11,
-      "stars": 567,
+      "stars": 639,
       "license": "MIT",
       "icon": "assets/icons/arcmd.webp",
       "shot": "assets/shots/arcmd.webp"
@@ -1133,9 +1133,9 @@
         "ko": "MyGo와 웹 프런트엔드로 만든 AI 에이전트용 로컬 게이트웨이입니다. 요청이 모델 제공업체로 가기 전에 기기에서 비밀 키, 이메일 주소, 전화번호 같은 민감한 내용을 찾아 정책에 따라 경고, 차단, 마스킹하고, 응답에서는 원래 값으로 되돌릴 수 있습니다. Codex, Claude, Grok 구독과 여러 API 제공업체를 하나의 엔드포인트로 묶고 모델 라우팅, 장애 조치, 요청 기록을 제공합니다."
       },
       "added": "2026-11-16T02:31:59Z",
-      "score": 85.5,
+      "score": 85.6,
       "likes": 1,
-      "stars": 615,
+      "stars": 624,
       "license": "Apache-2.0",
       "icon": "assets/icons/astrlink.webp",
       "shot": "assets/shots/astrlink.webp"
@@ -1244,7 +1244,7 @@
       "added": "2026-11-05T00:46:37Z",
       "score": 87.6,
       "likes": 1,
-      "stars": 1736,
+      "stars": 1750,
       "license": "AGPL-3.0",
       "icon": "assets/icons/atvloadly.webp",
       "shot": "assets/shots/atvloadly.webp"
@@ -1279,7 +1279,7 @@
       "added": "2026-11-05T00:47:49Z",
       "score": 79.2,
       "likes": 0,
-      "stars": 263,
+      "stars": 264,
       "license": "AGPL-3.0",
       "icon": "assets/icons/audiosmith.webp",
       "shot": "assets/shots/audiosmith.webp"
@@ -1312,9 +1312,9 @@
         "ko": "Apple 실리콘 Mac용 음성 입력 앱으로, MyGo의 네이티브 UI로 그렸고 마이크, 단축키, 손쉬운 사용은 작은 Swift 헬퍼가 맡습니다. 어느 앱에서든 단축키를 누르고 말하면 언어 모델이 다듬은 텍스트가 커서 위치에 입력되며, 선택한 텍스트를 번역하거나 고쳐 쓸 수도 있습니다. 모델을 로컬에서 돌리지 않고 StepFun, Doubao, DeepSeek, OpenAI 등의 서비스를 골라 자신의 API 키로 사용합니다."
       },
       "added": "2026-11-05T03:47:54Z",
-      "score": 54.4,
+      "score": 56.2,
       "likes": 0,
-      "stars": 3,
+      "stars": 5,
       "license": "AGPL-3.0",
       "icon": "assets/icons/auralink.webp",
       "shot": "assets/shots/auralink.webp"
@@ -1423,7 +1423,7 @@
       "added": "2026-11-11T02:28:27Z",
       "score": 83.6,
       "likes": 0,
-      "stars": 5494,
+      "stars": 5497,
       "license": "Apache-2.0",
       "icon": "assets/icons/axonhub.webp",
       "shot": "assets/shots/axonhub.webp"
@@ -1786,7 +1786,7 @@
         "ko": "MyGo의 네이티브 UI로 그린, Bilibili 영상을 보는 대신 듣기 위한 크로스플랫폼 앱입니다. 검색 결과, 구독, 즐겨찾기, 재생목록을 재생하며 자막, 챕터, 탄막 목록, 커뮤니티 기반 광고 구간 건너뛰기를 지원합니다. 오디오는 순수 Go 엔진으로 처리해 webview가 필요 없습니다. Windows, macOS, Linux에서 동작하며 앱 안에서 업데이트됩니다."
       },
       "added": "2026-11-05T05:07:41Z",
-      "score": 77.4,
+      "score": 77.9,
       "likes": 3,
       "stars": 79,
       "license": "Apache-2.0",
@@ -1860,8 +1860,8 @@
         "ko": "macOS, Windows, Linux용 무료 오픈 소스 블록 노트 앱으로, MyGo의 네이티브 UI로 그렸습니다. 노트는 일반 .md 파일로 내 컴퓨터에 저장되며 가입도 인터넷 연결도 필요 없습니다. 문단을 통째로 끌어 옮기고 장을 접을 수 있고, 편집할 때마다 기록을 로컬에 남기며, AI 수정은 차이를 먼저 보여 주고 확인해야 반영합니다. WebDAV나 Git 동기화는 선택 확장으로 추가합니다."
       },
       "added": "2026-11-22T09:59:47Z",
-      "score": 56.0,
-      "likes": 0,
+      "score": 59.0,
+      "likes": 1,
       "stars": 2,
       "license": "Apache-2.0",
       "icon": "assets/icons/block.webp",
@@ -2002,9 +2002,9 @@
         "ko": "macOS, Windows, Linux용 mihomo 클라이언트로, 데스크톱 UI는 MyGo의 네이티브 UI를 GPU로 직접 그리며 WebView가 없습니다. Android 앱은 Flutter로 따로 만들었습니다. 용도별로 트래픽을 나누고 출구 노드를 직접 또는 속도 기준으로 고르며, 연결마다 앱, 규칙, 출구를 확인하고 구독 링크, 노드 링크, YAML, QR 코드를 가져옵니다. 에이전트용 MCP 서버도 있습니다. TUN과 LAN 게이트웨이 모드는 macOS 전용이며, Linux에서는 아직 시스템 프록시를 설정할 수 없습니다."
       },
       "added": "2026-11-09T02:30:16Z",
-      "score": 77.3,
+      "score": 78.3,
       "likes": 3,
-      "stars": 692,
+      "stars": 815,
       "license": "NOASSERTION",
       "icon": "assets/icons/bowel.webp",
       "shot": "assets/shots/bowel.webp"
@@ -2358,9 +2358,9 @@
         "ko": "MyGo의 네이티브 UI로 그린 Windows·macOS용 캔들 차트 앱으로, 조작감을 TradingView에 맞췄습니다. Binance 현물과 무기한 선물, CME 선물, 미국·A주·홍콩 주식을 공개 시세로 보여 주며 계정도 API 키도 필요 없습니다. 지표 28종, Pine Script 가져오기, 손익비 계산이 있는 그리기 도구를 갖췄고, 한 창에 차트를 최대 8개까지 띄울 수 있습니다."
       },
       "added": "2026-11-05T05:57:31Z",
-      "score": 56.8,
+      "score": 58.0,
       "likes": 1,
-      "stars": 6,
+      "stars": 7,
       "license": "MIT",
       "icon": "assets/icons/candle.webp",
       "shot": "assets/shots/candle.webp"
@@ -2399,6 +2399,41 @@
       "license": "MIT",
       "icon": "assets/icons/capy.webp",
       "shot": "assets/shots/capy.webp"
+    },
+    {
+      "slug": "carrydock",
+      "name": "CarryDock",
+      "author": "youzhiran",
+      "kind": "native",
+      "platforms": [
+        "win"
+      ],
+      "group": "system",
+      "category": null,
+      "url": "https://carrydock.devyi.com",
+      "repo": "youzhiran/CarryDock",
+      "identifier": "com.devyi.carrydock",
+      "summary": {
+        "en": "A Windows manager for portable apps: imports archives, launches executables and keeps backups.",
+        "zh-CN": "Windows 便携软件管理器：导入压缩包、启动程序并保留备份。",
+        "zh-TW": "Windows 可攜式軟體管理工具：匯入壓縮檔、啟動程式並保留備份。",
+        "ja": "Windows 向けポータブルアプリ管理ツール。アーカイブを取り込み、起動し、バックアップも管理。",
+        "ko": "Windows용 포터블 앱 관리자. 압축 파일을 가져오고 실행하며 백업을 관리합니다."
+      },
+      "description": {
+        "en": "A portable app manager for Windows, drawn with MyGo's native UI on Direct3D 11, with no CGO and no WebView2. Drop archives such as ZIP, 7Z or RAR, or executables, into the window to import them; it picks the executable to launch, keeps timestamped ZIP backups for each app and can adopt existing portable folders in a batch. The interface is in Chinese and English.",
+        "zh-CN": "Windows 便携软件管理器，由 MyGo 原生 UI 通过 Direct3D 11 绘制，不依赖 CGO 和 WebView2。把 ZIP、7Z、RAR 等压缩包或可执行文件拖进窗口即可导入；它会选出要启动的程序，为每个应用保留带时间戳的 ZIP 备份，还能批量接管已有的便携软件目录。界面支持中文和英文。",
+        "zh-TW": "Windows 可攜式軟體管理工具，由 MyGo 原生 UI 透過 Direct3D 11 繪製，不依賴 CGO 與 WebView2。把 ZIP、7Z、RAR 等壓縮檔或執行檔拖進視窗即可匯入；它會選出要啟動的程式，為每個應用程式保留帶時間戳記的 ZIP 備份，也能批次接管既有的可攜式軟體資料夾。介面支援中文與英文。",
+        "ja": "MyGo のネイティブ UI で Direct3D 11 に描画する Windows 向けポータブルアプリ管理ツール。CGO にも WebView2 にも依存しません。ZIP、7Z、RAR などのアーカイブや実行ファイルをウィンドウにドロップすると取り込み、起動する実行ファイルを選び、アプリごとにタイムスタンプ付きの ZIP バックアップを管理します。既存のポータブルアプリのフォルダーもまとめて登録できます。画面は中国語と英語に対応しています。",
+        "ko": "MyGo의 네이티브 UI로 Direct3D 11에 그리는 Windows용 포터블 앱 관리자로, CGO도 WebView2도 쓰지 않습니다. ZIP, 7Z, RAR 같은 압축 파일이나 실행 파일을 창에 끌어다 놓으면 가져오고, 실행할 파일을 골라 주며, 앱마다 타임스탬프가 붙은 ZIP 백업을 관리합니다. 이미 있는 포터블 앱 폴더도 한꺼번에 등록할 수 있습니다. 화면은 중국어와 영어를 지원합니다."
+      },
+      "added": "2026-11-27T02:31:44Z",
+      "score": 33.5,
+      "likes": 0,
+      "stars": null,
+      "license": null,
+      "icon": "assets/icons/carrydock.webp",
+      "shot": "assets/shots/carrydock.webp"
     },
     {
       "slug": "catview",
@@ -2607,9 +2642,9 @@
         "ko": "Snow Linux용 데스크톱 앱으로, Go로 작성하고 MyGo의 네이티브 UI로 GTK 3와 OpenGL 위에 그립니다. 한 창에서 시스템 이미지(bootc 또는 네이티브 A/B), 기능 확장, Flatpak 앱, Homebrew 패키지, 펌웨어를 업데이트하고, 설치된 앱 목록과 정리 작업도 다룹니다. 실행하는 명령은 출력과 함께 보여 주며 한 번에 하나씩만 변경합니다."
       },
       "added": "2026-11-11T02:28:27Z",
-      "score": 67.0,
+      "score": 67.3,
       "likes": 2,
-      "stars": 16,
+      "stars": 17,
       "license": "MIT",
       "icon": "assets/icons/chairlift.webp",
       "shot": "assets/shots/chairlift.webp"
@@ -2929,9 +2964,9 @@
         "ko": "Clash Verge Rev, FlClash 등 mihomo 코어와 함께 쓰는 메뉴 막대 앱으로, MyGo와 웹 프런트엔드로 만들었습니다. 앱과 사이트별 업로드, 다운로드, 연결 수를 보여 주고 프록시 트래픽만 따로 볼 수 있습니다. 구독별 사용량을 제공자 집계와 나란히 보여 주며, 접근 로그와 실시간 보기도 있습니다. 같은 Tailscale 네트워크에 있거나 폴더나 WebDAV를 공유하는 사본끼리는 수치를 합칩니다."
       },
       "added": "2026-11-05T00:51:08Z",
-      "score": 49.7,
+      "score": 49.8,
       "likes": 0,
-      "stars": 99,
+      "stars": 102,
       "license": null,
       "icon": "assets/icons/clash-traffic.webp",
       "shot": "assets/shots/clash-traffic.webp"
@@ -3071,7 +3106,7 @@
         "ko": "Mac용 오픈소스 클립보드 기록. 복사한 텍스트, 링크, 코드, 이미지와 자주 쓰는 스니펫을 보관하고, ⌘⇧V로 하나를 골라 원래 자리에 붙여 넣습니다."
       },
       "added": "2026-11-04T02:24:49Z",
-      "score": 60.1,
+      "score": 60.4,
       "likes": 0,
       "stars": 7,
       "license": "MIT",
@@ -3493,7 +3528,7 @@
         "ko": "MyGo의 네이티브 UI로 그린 macOS, Windows, Linux용 메일 클라이언트로, 시스템 웹 뷰는 HTML 메일을 샌드박스에서 보여 줄 때만 씁니다. IMAP 또는 POP3와 SMTP 계정을 지원하고 메일을 로컬에 캐시해 오프라인에서도 읽고 보관하고 이동할 수 있습니다. 통합 받은편지함, 스레드 보기, 규칙, 스누즈, 예약 발송, 키보드 단축키도 갖췄습니다."
       },
       "added": "2026-11-05T10:51:28Z",
-      "score": 56.1,
+      "score": 56.6,
       "likes": 0,
       "stars": 1,
       "license": "MIT",
@@ -3772,9 +3807,9 @@
         "ko": "MyGo의 네이티브 UI로 그린, 계정이 필요 없는 로컬 API 클라이언트입니다. HTTP, SSE, WebSocket 요청을 보내고 curl과 Postman v2.1·Bruno 컬렉션을 가져오며, curl과 Postman으로 내보냅니다. 환경, 암호화된 비밀 값, 쿠키, 기록은 기기에 저장됩니다. 선택형 CLI도 있으며, 설치 파일은 macOS Apple Silicon용뿐이고 다른 플랫폼은 소스로 빌드합니다."
       },
       "added": "2026-11-06T00:53:33Z",
-      "score": 64.3,
+      "score": 65.6,
       "likes": 0,
-      "stars": 16,
+      "stars": 22,
       "license": "MIT",
       "icon": "assets/icons/curlgo.webp",
       "shot": "assets/shots/curlgo.webp"
@@ -3879,7 +3914,7 @@
       "added": "2026-11-09T02:30:16Z",
       "score": 81.0,
       "likes": 2,
-      "stars": 422,
+      "stars": 425,
       "license": "GPL-3.0",
       "icon": "assets/icons/dalibre.webp",
       "shot": "assets/shots/dalibre.webp"
@@ -3949,7 +3984,7 @@
       "added": "2026-11-05T00:46:37Z",
       "score": 41.4,
       "likes": 0,
-      "stars": 431,
+      "stars": 432,
       "license": null,
       "icon": "assets/icons/daybee.webp",
       "shot": "assets/shots/daybee.webp"
@@ -4095,7 +4130,7 @@
       "added": "2026-11-06T04:56:38Z",
       "score": 94.1,
       "likes": 10,
-      "stars": 1054,
+      "stars": 1056,
       "license": "Apache-2.0",
       "icon": "assets/icons/denova.webp",
       "shot": "assets/shots/denova.webp"
@@ -4411,9 +4446,9 @@
         "ko": "Windows 10·11용 데스크톱 아일랜드입니다. 가사를 보여 주고 음악을 제어하며, 뽀모도로·카운트다운·스톱워치를 실행하고 알림이 있는 할 일을 관리합니다. 기기, 날씨, 채팅 알림도 아일랜드에 띄우고 데스크톱 위젯도 따로 둘 수 있습니다. MyGo로 만든 부분은 컨트롤 센터뿐이며 Go와 Direct3D를 쓰고 WebView는 쓰지 않습니다. 아일랜드와 위젯은 Rust, Win32, wgpu로 작성되었습니다."
       },
       "added": "2026-11-18T02:31:35Z",
-      "score": 70.8,
+      "score": 71.6,
       "likes": 0,
-      "stars": 37,
+      "stars": 45,
       "license": "MIT",
       "icon": "assets/icons/dotisle.webp",
       "shot": "assets/shots/dotisle.webp"
@@ -4659,9 +4694,9 @@
         "ko": "dsh-trading의 데스크톱 버전으로, 웹 프런트엔드를 MyGo로 감쌌습니다. 암호화폐, 미국 주식, 중국 A주, 홍콩 주식, 중국 상품 선물을 다루는 AI 트레이딩 터미널이며, 같은 터미널을 dsh CLI로 브라우저에서도 실행할 수 있습니다. 차트 옆의 AI 에이전트가 종목을 조사하고 매매 계획을 세우고 위험을 검토하며, 주문은 기본적으로 모의 실행이고 실거래를 켠 뒤 한 건씩 직접 승인해야 실제로 나갑니다."
       },
       "added": "2026-11-06T12:56:26Z",
-      "score": 75.3,
+      "score": 75.4,
       "likes": 1,
-      "stars": 375,
+      "stars": 377,
       "license": "NOASSERTION",
       "icon": "assets/icons/dsh-trading.webp",
       "shot": "assets/shots/dsh-trading.webp"
@@ -4730,9 +4765,9 @@
         "ko": "Ducter의 Mac(Apple 실리콘) 클라이언트입니다. Ducter는 내 Mac이나 Linux 서버에서 돌아가는 개인 AI로, 작업을 Claude Code, Codex, pi, DeepSeek Harness에 맡깁니다. 끝나면 결과와 그 근거를 알려 주고, 결정이 필요할 때는 기본안을 정해 두고 묻습니다. MyGo의 네이티브 UI로 웹뷰 없이 그린 것은 이 클라이언트뿐이며, 서버, 휴대폰용 웹 앱, iPhone 앱은 다른 방식으로 만들어졌습니다."
       },
       "added": "2026-11-10T02:29:18Z",
-      "score": 71.2,
+      "score": 72.2,
       "likes": 1,
-      "stars": 58,
+      "stars": 74,
       "license": "Apache-2.0",
       "icon": "assets/icons/ducter.webp",
       "shot": "assets/shots/ducter.webp"
@@ -4951,6 +4986,43 @@
       "shot": "assets/shots/echo.webp"
     },
     {
+      "slug": "echo-music-desktop",
+      "name": "Echo Music Desktop",
+      "author": "EchoMusicApp",
+      "kind": "native",
+      "platforms": [
+        "win",
+        "linux",
+        "mac"
+      ],
+      "group": "media",
+      "category": null,
+      "url": "https://github.com/EchoMusicApp/Desktop",
+      "repo": "EchoMusicApp/Desktop",
+      "identifier": "echo.music.iad1tya",
+      "summary": {
+        "en": "A desktop YouTube Music player with synced lyrics, an equalizer, downloads and Android sync.",
+        "zh-CN": "YouTube Music 桌面播放器，支持同步歌词、均衡器、下载与手机同步。",
+        "zh-TW": "YouTube Music 桌面播放器，支援同步歌詞、等化器、下載與手機同步。",
+        "ja": "同期歌詞やイコライザー、ダウンロードを備えた YouTube Music デスクトッププレーヤー。",
+        "ko": "싱크 가사, 이퀄라이저, 다운로드를 갖춘 데스크톱 YouTube Music 플레이어."
+      },
+      "description": {
+        "en": "The desktop client of Echo Music for macOS, Windows and Linux, drawn with MyGo's native UI; the Android app is a separate project built otherwise. It plays YouTube Music without ads, with synced lyrics, a 10-band equalizer, podcasts, offline downloads and a menu bar or tray mini player. Echo Connect pairs it with the Android app over local Wi-Fi to hand off playback and sync playlists.",
+        "zh-CN": "Echo Music 的桌面客户端，支持 macOS、Windows 与 Linux，由 MyGo 原生 UI 绘制；Android 版是另行开发的独立项目。它无广告播放 YouTube Music，提供同步歌词、10 段均衡器、播客、离线下载，以及菜单栏或托盘迷你播放器。通过 Echo Connect 可在同一 Wi-Fi 下与 Android 版配对，接力播放并同步歌单。",
+        "zh-TW": "Echo Music 的桌面用戶端，支援 macOS、Windows 與 Linux，由 MyGo 原生 UI 繪製；Android 版是另外開發的獨立專案。它無廣告播放 YouTube Music，提供同步歌詞、10 段等化器、Podcast、離線下載，以及選單列或系統匣迷你播放器。透過 Echo Connect 可在同一個 Wi-Fi 下與 Android 版配對，接續播放並同步播放清單。",
+        "ja": "Echo Music の macOS・Windows・Linux 向けデスクトップクライアントで、MyGo のネイティブ UI で描かれています。Android 版は別に開発されているプロジェクトです。YouTube Music を広告なしで再生し、同期歌詞、10 バンドのイコライザー、ポッドキャスト、オフライン用のダウンロード、メニューバーやトレイのミニプレーヤーを備えます。Echo Connect を使えば、同じ Wi-Fi 上の Android 版とペアリングして再生を引き継いだり、プレイリストを同期したりできます。",
+        "ko": "macOS, Windows, Linux용 Echo Music 데스크톱 클라이언트로, MyGo의 네이티브 UI로 그렸습니다. Android 앱은 별도로 개발되는 프로젝트입니다. YouTube Music을 광고 없이 재생하며 싱크 가사, 10밴드 이퀄라이저, 팟캐스트, 오프라인 다운로드, 메뉴 막대·트레이 미니 플레이어를 갖췄습니다. Echo Connect로 같은 Wi-Fi의 Android 앱과 페어링해 재생을 이어 받고 재생목록을 동기화할 수 있습니다."
+      },
+      "added": "2026-11-27T02:31:44Z",
+      "score": 33.5,
+      "likes": 0,
+      "stars": null,
+      "license": null,
+      "icon": "assets/icons/echo-music-desktop.webp",
+      "shot": "assets/shots/echo-music-desktop.webp"
+    },
+    {
       "slug": "elir",
       "name": "Elir",
       "author": "lesenelir",
@@ -5013,7 +5085,7 @@
         "ko": "Go로 작성하고 MyGo의 네이티브 UI로 그린 앱으로, Claude Code, Codex, OpenCode 같은 코딩 에이전트를 실제 터미널에서 실행하며 세션마다 자체 git 브랜치와 워크트리를 씁니다. 에이전트는 SSH나 Tailscale로 연결한 서버에서 돌리고, 노트북에서는 터미널, 채팅, diff, 미리보기를 볼 수 있습니다. macOS, Windows, Linux를 지원하며 계정도 텔레메트리도 없습니다."
       },
       "added": "2026-11-05T00:55:21Z",
-      "score": 70.6,
+      "score": 75.6,
       "likes": 2,
       "stars": 43,
       "license": "MIT",
@@ -5298,7 +5370,7 @@
       "added": "2026-11-09T02:30:16Z",
       "score": 74.4,
       "likes": 3,
-      "stars": 771,
+      "stars": 774,
       "license": "NOASSERTION",
       "icon": "assets/icons/finallyshell.webp",
       "shot": "assets/shots/finallyshell.webp"
@@ -5476,8 +5548,8 @@
         "ko": "MyGo의 네이티브 UI로 GPU에서 그린 하루 공부 기록 앱으로, WebView를 쓰지 않습니다. 기록마다 과목, 장, 절과 여러 요점을 담고, 요점은 복습 완료로 표시할 수 있으며 전문 검색도 됩니다. 학습 기록과 따로 쓰는 수필, 마감일을 정할 수 있는 할 일, 기록한 날이 표시되는 달력도 있습니다. 데이터는 로컬 SQLite 파일에 저장되고 매일 JSON으로 자동 백업됩니다."
       },
       "added": "2026-11-21T12:06:17Z",
-      "score": 58.0,
-      "likes": 5,
+      "score": 58.6,
+      "likes": 6,
       "stars": 2,
       "license": "MIT",
       "icon": "assets/icons/flowlog.webp",
@@ -5545,9 +5617,9 @@
         "ko": "ForgeADE는 RakitKode 에이전트 엔진 위에 공용 Go 코어를 두고 여러 형태로 제공되는 AI 개발 환경입니다. MyGo로 만드는 것은 네이티브 데스크톱 버전으로, GPU로 렌더링되는 단일 바이너리이며 Node 툴체인이 필요 없습니다. 같은 코어로 React 프런트엔드를 쓰는 Wails 데스크톱 앱과 forge-agent, forge-mcp 같은 헤드리스 CLI도 만들지만, 이들은 MyGo를 쓰지 않습니다."
       },
       "added": "2026-11-14T02:29:31Z",
-      "score": 66.5,
+      "score": 66.8,
       "likes": 0,
-      "stars": 13,
+      "stars": 14,
       "license": "MIT",
       "icon": "assets/icons/forgeade.webp",
       "shot": "assets/shots/forgeade.webp"
@@ -5687,7 +5759,7 @@
         "ko": "MyGo의 네이티브 UI와 frostui로 그린 Linux용 데스크톱 노트 앱입니다. 노트는 직접 소유한 폴더 속 일반 Markdown 파일이며, 실시간 미리보기로 편집하고 Obsidian 보관소도 그대로 엽니다. MyGo로 만든 것은 데스크톱 앱뿐이며, 노트 색인과 버전 보관, 직접 운영하는 허브와의 동기화를 맡는 notesd 데몬과 React 웹 앱은 따로 만들어졌습니다."
       },
       "added": "2026-11-12T02:29:58Z",
-      "score": 59.5,
+      "score": 59.8,
       "likes": 0,
       "stars": 2,
       "license": "MIT",
@@ -5863,7 +5935,7 @@
         "ko": "MyGo로 만든 Windows용 게임 세이브 관리 도구로, 프런트엔드는 WebView2에서 동작하는 React입니다. 설치된 게임과 세이브 경로를 찾아 ZIP으로 전체 또는 증분 백업하고, 복원과 버전 기록 관리, SHA256 무결성 검사를 합니다. 백업은 바이두, 쿼크 등 클라우드 드라이브와 Alist/OpenList, WebDAV에 동기화됩니다. 이전 Tauri 버전을 대체하며 기존 데이터 폴더를 그대로 씁니다."
       },
       "added": "2026-11-06T09:35:08Z",
-      "score": 16.6,
+      "score": 15.0,
       "likes": 0,
       "stars": 0,
       "license": null,
@@ -6079,9 +6151,9 @@
         "ko": "시스템 트레이에 상주하는 macOS·Windows용 선택 텍스트 번역 도구로, MyGo의 네이티브 UI로 그려 WebView가 없습니다. 선택하거나 입력한 텍스트와 클립보드 텍스트를 번역하고, 스크린샷과 이미지 속 글자도 로컬에서 인식해 번역합니다. 내장 Google·Bing부터 DeepL, AI 모델, 로컬 Ollama까지 여러 서비스에 동시에 요청하며, 결과는 작은 플로팅 창에 서비스별로 보여 줍니다."
       },
       "added": "2026-11-12T08:07:41Z",
-      "score": 52.6,
+      "score": 53.2,
       "likes": 0,
-      "stars": 6,
+      "stars": 7,
       "license": "Apache-2.0",
       "icon": "assets/icons/glide.webp",
       "shot": "assets/shots/glide.webp"
@@ -6151,9 +6223,9 @@
         "ko": "MyGo의 네이티브 UI로 그린 macOS·Windows·Linux용 Git 클라이언트로, 웹 뷰 없이 약 20MB의 단일 바이너리입니다. diff를 파일 단위로 단어 수준 하이라이트와 함께 검토하고 hunk나 줄 범위 단위로 스테이징하며, 브랜치 그래프를 그리고 충돌을 그 자리에서 해결합니다. 직접 고른 LLM(로컬 Ollama 모델 포함)이 스테이징한 변경의 위험을 찾아내고 커밋 메시지 초안을 씁니다."
       },
       "added": "2026-11-06T03:34:18Z",
-      "score": 62.8,
+      "score": 62.0,
       "likes": 0,
-      "stars": 5,
+      "stars": 4,
       "license": "MIT",
       "icon": "assets/icons/gloss.webp",
       "shot": "assets/shots/gloss.webp"
@@ -6264,7 +6336,7 @@
       "added": "2026-11-04T02:24:49Z",
       "score": 37.0,
       "likes": 0,
-      "stars": 142,
+      "stars": 144,
       "license": null,
       "icon": "assets/icons/godiff.webp",
       "shot": "assets/shots/godiff.webp"
@@ -6299,9 +6371,9 @@
         "ko": "tldraw 스타일의 화이트보드로, Go로 작성하고 MyGo의 네이티브 UI로 그렸으며 웹 뷰도 JavaScript도 없습니다. tldraw와 별개로 다시 구현했지만 tldraw의 .tldr 파일을 읽고 쓸 수 있어 두 앱 사이에 그림을 주고받을 수 있고, 서식 있는 텍스트는 일반 텍스트로 표시됩니다. 펜, 화살표, 메모, 프레임, 도형 도구를 갖췄고, 그림마다 별도 창에서 열려 자동 저장되며, PNG와 SVG로 내보낼 수 있습니다."
       },
       "added": "2026-11-05T00:58:48Z",
-      "score": 42.3,
+      "score": 42.4,
       "likes": 1,
-      "stars": 268,
+      "stars": 272,
       "license": null,
       "icon": "assets/icons/godraw.webp",
       "shot": "assets/shots/godraw.webp"
@@ -6375,7 +6447,7 @@
       "added": "2026-11-04T02:24:49Z",
       "score": 85.0,
       "likes": 7,
-      "stars": 160,
+      "stars": 163,
       "license": "Apache-2.0",
       "icon": "assets/icons/godwit.webp",
       "shot": "assets/shots/godwit.webp"
@@ -6625,9 +6697,9 @@
         "ko": "Superlogical Rex 터미널의 복제판. 탭과 분할 창을 카드로 다루고, 종료 후에도 세션이 계속되며, 각 창의 헤더에 실행 중인 프로그램과 활동이 표시됩니다."
       },
       "added": "2026-11-04T02:24:49Z",
-      "score": 37.8,
+      "score": 37.9,
       "likes": 1,
-      "stars": 366,
+      "stars": 368,
       "license": null,
       "icon": "assets/icons/gorex.webp",
       "shot": "assets/shots/gorex.webp"
@@ -6768,7 +6840,7 @@
         "ko": "LiveKit 기반의 자체 호스팅 게임 음성 채팅 GOSpeak의 데스크톱 클라이언트로, 음성 방, 발언 표시, 멤버별 음량 조절을 제공합니다. MyGo가 웹 버전과 같은 React 프런트엔드를 시스템 WebView로 감싸고 트레이 상주, 로그인 시 자동 실행, 전역 단축키, 시스템 알림, 게임 내 오버레이를 더합니다. 서버는 따로 직접 운영하는 Go 백엔드입니다."
       },
       "added": "2026-11-09T02:30:16Z",
-      "score": 53.7,
+      "score": 54.1,
       "likes": 1,
       "stars": 1,
       "license": "Apache-2.0",
@@ -7058,12 +7130,48 @@
         "ko": "GuiZhi는 웹 페이지, 로컬 파일, 빌리빌리나 YouTube 같은 플랫폼의 공유 링크를 내 기기에 저장되는 지식 베이스로 모읍니다. 계정 가입은 필요 없습니다. AI 모델을 설정하면 요약을 만들고 자료를 바탕으로 질문에 답하며, 내용을 서로 연결된 위키로 엮습니다. 태그, 전문 검색, Markdown 내보내기는 AI 없이도 쓸 수 있습니다. MyGo와 웹 프런트엔드로 만든 Windows 앱입니다."
       },
       "added": "2026-11-15T08:19:21Z",
-      "score": 70.4,
+      "score": 70.1,
       "likes": 0,
       "stars": 40,
       "license": "AGPL-3.0",
       "icon": "assets/icons/guizhi.webp",
       "shot": "assets/shots/guizhi.webp"
+    },
+    {
+      "slug": "guludrive",
+      "name": "GuluDrive",
+      "author": "nekohy",
+      "kind": "native",
+      "platforms": [
+        "win",
+        "linux",
+        "mac"
+      ],
+      "group": "dev",
+      "category": null,
+      "url": "https://github.com/nekohy/guludrive",
+      "repo": "nekohy/guludrive",
+      "summary": {
+        "en": "A cloud drive on the Google Photos Android protocol, with WebDAV, a web UI and a native window.",
+        "zh-CN": "基于 Google Photos 安卓端协议的网盘，支持 WebDAV 与原生窗口。",
+        "zh-TW": "基於 Google Photos 安卓協定的雲端硬碟，支援 WebDAV 與原生視窗。",
+        "ja": "Google Photos の Android 版プロトコルによるクラウドドライブ。WebDAV 対応。",
+        "ko": "Google Photos Android 프로토콜 기반 클라우드 드라이브, WebDAV 지원."
+      },
+      "description": {
+        "en": "A cloud drive built on the Google Photos Android protocol: it poses as a Pixel XL for unlimited storage, uploads any file disguised as BMP or MP4, and keeps the file system in SQLite. Files are served through a web UI and WebDAV, with downloads optionally relayed via a Cloudflare Worker. MyGo draws its native window; the web UI is built with Vue, and the no-ui builds run only the web service.",
+        "zh-CN": "基于 Google Photos 安卓端协议实现的网盘工具：模拟 Pixel XL 获得无限容量，把任意文件伪装成 BMP 或 MP4 上传，并用 SQLite 映射文件系统。文件可通过 Web 界面和 WebDAV 访问，下载可选经 Cloudflare Worker 转发。原生窗口由 MyGo 绘制，Web 界面用 Vue 构建，no-ui 版本只提供 Web 服务。",
+        "zh-TW": "基於 Google Photos 安卓端協定實作的雲端硬碟工具：模擬 Pixel XL 取得無限容量，把任意檔案偽裝成 BMP 或 MP4 上傳，並以 SQLite 對應檔案系統。檔案可透過 Web 介面與 WebDAV 存取，下載可選擇經 Cloudflare Worker 轉送。原生視窗由 MyGo 繪製，Web 介面以 Vue 打造，no-ui 版本只提供 Web 服務。",
+        "ja": "Google Photos の Android 版プロトコルで実装したクラウドドライブ。Pixel XL を装って無制限の容量を使い、任意のファイルを BMP や MP4 に偽装してアップロードし、ファイルシステムは SQLite で管理します。Web UI と WebDAV からアクセスでき、ダウンロードは Cloudflare Worker 経由にもできます。ネイティブウィンドウは MyGo で描かれ、Web UI は Vue 製で、no-ui 版は Web サービスのみです。",
+        "ko": "Google Photos Android 프로토콜로 구현한 클라우드 드라이브입니다. Pixel XL로 위장해 무제한 용량을 쓰고, 어떤 파일이든 BMP나 MP4로 위장해 올리며, 파일 시스템은 SQLite로 관리합니다. Web UI와 WebDAV로 접근하고, 다운로드는 Cloudflare Worker를 거치게 할 수도 있습니다. 네이티브 창은 MyGo로 그리며, no-ui 빌드는 Web 서비스만 제공합니다."
+      },
+      "added": "2026-11-27T02:31:44Z",
+      "score": 33.5,
+      "likes": 0,
+      "stars": null,
+      "license": null,
+      "icon": "assets/icons/guludrive.webp",
+      "shot": "assets/shots/guludrive.webp"
     },
     {
       "slug": "gzist-netkeeper",
@@ -7420,9 +7528,9 @@
         "ko": "MyGo의 네이티브 UI로 그린 macOS, Windows, Linux용 개발 환경 도구로, 약 18MB의 Go 바이너리이며 WebView가 없습니다. 런타임과 PATH, 프로젝트별 요구 버전을 보여 주고 Docker, Kubernetes, 로컬 데이터베이스를 관리하며 AI 코딩 에이전트의 스킬과 MCP 서버를 한곳에 모읍니다. 스캔은 아무것도 바꾸지 않으며, 수정은 명령과 diff를 보여 준 뒤 확인해야 실행됩니다."
       },
       "added": "2026-11-26T02:31:39Z",
-      "score": 58.5,
+      "score": 63.5,
       "likes": 0,
-      "stars": 16,
+      "stars": 41,
       "license": "MIT",
       "icon": "assets/icons/hearth.webp",
       "shot": "assets/shots/hearth.webp"
@@ -7890,7 +7998,7 @@
         "ko": "로컬 AI 벤치마크 도구 InferYard의 데스크톱 앱으로, MyGo 네이티브 UI와 onevra 컴포넌트로 그리며 웹뷰를 쓰지 않습니다. 작업 공간을 준비하고, 버전이 고정된 모델과 엔진을 SHA-256으로 확인하며 내려받고, 엔진 서비스를 시작해 연결한 뒤 CPU와 메모리 그래프를 그리며 테스트를 실행하고, 이어서 실행하거나 검증할 수 있는 보고서를 만듭니다. 실제 작업은 따로 설치하는 InferYard CLI가 맡으며, Studio에서 설치할 수도 있습니다."
       },
       "added": "2026-11-05T12:35:14Z",
-      "score": 69.0,
+      "score": 69.3,
       "likes": 0,
       "stars": null,
       "license": "MIT",
@@ -7969,6 +8077,42 @@
       "license": "MIT",
       "icon": "assets/icons/ipatlas.webp",
       "shot": "assets/shots/ipatlas.webp"
+    },
+    {
+      "slug": "iridium",
+      "name": "Iridium",
+      "author": "kumoSleeping",
+      "kind": "web",
+      "platforms": [
+        "win",
+        "linux",
+        "mac"
+      ],
+      "group": "agents",
+      "category": null,
+      "url": "https://github.com/kumoSleeping/Iridium",
+      "repo": "kumoSleeping/Iridium",
+      "summary": {
+        "en": "One window for the Claude Code, Codex and other agent sessions on your terminals and computers.",
+        "zh-CN": "把多台电脑上的 Claude Code、Codex 等 Agent 会话收进一个窗口。",
+        "zh-TW": "把多台電腦上的 Claude Code、Codex 等 Agent 對話收進一個視窗。",
+        "ja": "複数のPCにある Claude Code や Codex などのエージェントセッションを一画面に集約。",
+        "ko": "여러 컴퓨터의 Claude Code, Codex 등 에이전트 세션을 한 창에 모읍니다."
+      },
+      "description": {
+        "en": "A self-hosted hub that finds the Claude Code, Codex, pi, dsh and agy sessions in your terminals and on other connected computers, lets you follow them or take them over, and brings several agents into one channel with memory that carries across sessions. The service is a single Go binary with its own web page. MyGo builds only its desktop client, which has a web frontend.",
+        "zh-CN": "一个自托管的中枢，能找出终端里和已接入的其他电脑上的 Claude Code、Codex、pi、dsh 与 agy 会话，让你查看进度或直接接管，还能把多个 Agent 拉进同一个频道，并提供跨会话的记忆。服务本身是内嵌网页的单个 Go 二进制文件；MyGo 只用于构建它的桌面客户端，客户端采用 Web 前端。",
+        "zh-TW": "一個自架的中樞，能找出終端機裡與已接入的其他電腦上的 Claude Code、Codex、pi、dsh 與 agy 工作階段，讓你查看進度或直接接手，還能把多個 Agent 拉進同一個頻道，並提供跨工作階段的記憶。服務本身是內嵌網頁的單一 Go 執行檔；MyGo 只用來建置它的桌面用戶端，用戶端採用 Web 前端。",
+        "ja": "ターミナルや接続したほかのコンピューターにある Claude Code、Codex、pi、dsh、agy のセッションを見つけ、進み具合を見守ったり、そのまま引き継いだりできるセルフホスト型のハブ。複数のエージェントを一つのチャンネルに招くことができ、セッションをまたいだ記憶も使えます。サービス本体は Web ページを内蔵した単一の Go バイナリです。MyGo で作られているのは、Web フロントエンドを使うデスクトップクライアントだけです。",
+        "ko": "터미널과 연결된 다른 컴퓨터에 있는 Claude Code, Codex, pi, dsh, agy 세션을 찾아 진행 상황을 지켜보거나 그대로 이어받을 수 있는 셀프 호스팅 허브입니다. 여러 에이전트를 한 채널에 불러 모을 수 있고, 세션을 넘나드는 기억도 제공합니다. 서비스 자체는 웹 페이지를 내장한 단일 Go 바이너리이며, MyGo로 만든 것은 웹 프런트엔드를 쓰는 데스크톱 클라이언트뿐입니다."
+      },
+      "added": "2026-11-27T02:31:44Z",
+      "score": 33.5,
+      "likes": 0,
+      "stars": null,
+      "license": null,
+      "icon": "assets/icons/iridium.webp",
+      "shot": "assets/shots/iridium.webp"
     },
     {
       "slug": "ivy",
@@ -8139,7 +8283,7 @@
         "ko": "macOS, Windows, Linux용 플레이어 셸로, 직접 준비한 CatPawOpen 호환 JS 플러그인을 Node.js로 실행해 플러그인이 돌려준 미디어를 탐색·검색·재생합니다. 콘텐츠나 플러그인은 들어 있지 않습니다. 창 안에서 hls.js로 재생하거나 mpv, IINA, PotPlayer 등 외부 플레이어로 넘길 수 있고, 다음 회차를 이어서 재생합니다. MyGo는 웹 프런트엔드로 데스크톱 클라이언트를 빌드하며, Docker용 웹 모드는 따로 실행됩니다."
       },
       "added": "2026-11-05T15:55:15Z",
-      "score": 69.1,
+      "score": 65.4,
       "likes": 1,
       "stars": 36,
       "license": "MIT",
@@ -8425,7 +8569,7 @@
       "added": "2026-11-04T02:24:49Z",
       "score": 92.4,
       "likes": 6,
-      "stars": 1494,
+      "stars": 1496,
       "license": "MIT",
       "icon": "assets/icons/kero.webp",
       "shot": "assets/shots/kero.webp"
@@ -8566,7 +8710,7 @@
       "added": "2026-11-10T14:19:48Z",
       "score": 86.6,
       "likes": 3,
-      "stars": 3246,
+      "stars": 3248,
       "license": "Apache-2.0",
       "icon": "assets/icons/kite.webp",
       "shot": "assets/shots/kite.webp"
@@ -8679,6 +8823,41 @@
       "license": "MIT",
       "icon": "assets/icons/knack.webp",
       "shot": "assets/shots/knack.webp"
+    },
+    {
+      "slug": "koma",
+      "name": "Koma",
+      "author": "Kutius",
+      "kind": "native",
+      "platforms": [
+        "win"
+      ],
+      "group": "system",
+      "category": null,
+      "url": "https://github.com/Kutius/koma",
+      "repo": "Kutius/koma",
+      "identifier": "app.koma.capture",
+      "summary": {
+        "en": "A QQ-style Windows screenshot tool: annotate in place, capture scrolling pages and pin images.",
+        "zh-CN": "仿 QQ 截图的 Windows 截图工具：原位标注、滚动长截图、把图片钉在桌面。",
+        "zh-TW": "仿 QQ 截圖的 Windows 截圖工具：原處標註、捲動長截圖、把圖片釘在桌面。",
+        "ja": "QQ 風の Windows 用スクリーンショットツール。その場で注釈、スクロール撮影、画像のピン留め。",
+        "ko": "QQ 캡처 스타일의 Windows 스크린샷 도구. 제자리 주석, 스크롤 캡처, 이미지 고정."
+      },
+      "description": {
+        "en": "A screenshot tool for Windows 10 and 11 in the style of QQ screenshot, drawn with MyGo's native UI on Direct3D 11 with no WebView, a single file of about 13 MB that sits in the tray. Ctrl+Shift+A freezes every monitor so you can select, annotate, blur and measure in place. It also stitches scrolling captures, with auto-scroll, and pins images on top of the desktop.",
+        "zh-CN": "仿照 QQ 截图打造的 Windows 10/11 截图工具，用 Go 和 MyGo 原生 UI 以 Direct3D 11 绘制，没有 WebView 或 Electron，单文件约 13 MB，常驻托盘。按 Ctrl+Shift+A 冻结所有显示器画面，直接在原位框选、标注、打码和测距；还支持可自动滚动的长截图拼接，以及把图片钉在桌面最顶层。",
+        "zh-TW": "仿照 QQ 截圖打造的 Windows 10/11 截圖工具，以 Go 與 MyGo 原生 UI 透過 Direct3D 11 繪製，沒有 WebView 或 Electron，單一執行檔約 13 MB，常駐系統匣。按 Ctrl+Shift+A 凍結所有螢幕畫面，直接在原處框選、標註、打馬賽克與測距；也支援可自動捲動的長截圖拼接，並能把圖片釘選在桌面最上層。",
+        "ja": "QQ のスクリーンショット機能を手本にした Windows 10/11 向けの撮影ツール。Go と MyGo のネイティブ UI で Direct3D 11 により描画し、WebView も Electron も使いません。約 13 MB の単一ファイルでタスクトレイに常駐します。Ctrl+Shift+A で全モニターの画面を止め、その場で範囲選択、注釈、モザイク、計測ができます。自動スクロール付きのスクロールキャプチャや、画像をデスクトップの最前面にピン留めする機能もあります。",
+        "ko": "QQ 캡처를 본떠 만든 Windows 10/11용 스크린샷 도구로, Go와 MyGo의 네이티브 UI로 Direct3D 11에서 그리며 WebView도 Electron도 쓰지 않습니다. 약 13MB 단일 파일로 트레이에 상주합니다. Ctrl+Shift+A로 모든 모니터 화면을 멈춘 뒤 그 자리에서 영역 선택, 주석, 모자이크, 측정을 할 수 있고, 자동 스크롤을 지원하는 스크롤 캡처와 이미지를 바탕화면 맨 위에 고정하는 기능도 있습니다."
+      },
+      "added": "2026-11-27T02:31:44Z",
+      "score": 33.5,
+      "likes": 0,
+      "stars": null,
+      "license": null,
+      "icon": "assets/icons/koma.webp",
+      "shot": "assets/shots/koma.webp"
     },
     {
       "slug": "kopi",
@@ -8820,7 +8999,7 @@
       "added": "2026-11-05T00:46:09Z",
       "score": 56.9,
       "likes": 0,
-      "stars": 301,
+      "stars": 302,
       "license": "AGPL-3.0",
       "icon": "assets/icons/kumo.webp",
       "shot": "assets/shots/kumo.webp"
@@ -9213,9 +9392,9 @@
         "ko": "macOS, Windows, Linux용 Git 클라이언트로, Lazygit의 Git 명령 계층 위에 MyGo의 네이티브 UI로 그렸습니다. 줄 단위로 스테이징하고, 커밋 그래프와 파일 기록을 보며 커밋을 일괄 수정하며, 충돌은 Base, Current, Incoming, Result 네 칸 화면에서 해결합니다. 코드 편집기, 검색, 터미널, 원격 Linux 호스트의 SSH 워크스페이스도 저장소 탭 옆에서 쓸 수 있습니다."
       },
       "added": "2026-11-26T02:31:39Z",
-      "score": 64.9,
+      "score": 65.1,
       "likes": 0,
-      "stars": 19,
+      "stars": 20,
       "license": "MIT",
       "icon": "assets/icons/lazygitgo.webp",
       "shot": "assets/shots/lazygitgo.webp"
@@ -9285,9 +9464,9 @@
         "ko": "macOS·Windows용 로컬 Markdown 편집기로, MyGo의 네이티브 UI로 GPU에서 그리며 Electron, Tauri, 웹 뷰를 쓰지 않습니다. 제목, 표, 각주, 수식, Mermaid 다이어그램이 쓰는 즉시 조판된 모습으로 보이고, 필요하면 소스 모드에서 Markdown을 직접 고칠 수 있습니다. 문서는 탭으로 열거나 폴더를 작업 공간으로 열 수 있으며, HTML, PDF, Markdown 사본으로 내보냅니다."
       },
       "added": "2026-11-05T13:45:02Z",
-      "score": 63.7,
+      "score": 64.2,
       "likes": 0,
-      "stars": 7,
+      "stars": 8,
       "license": "MIT",
       "icon": "assets/icons/leafmark.webp",
       "shot": "assets/shots/leafmark.webp"
@@ -9937,6 +10116,41 @@
       "shot": "assets/shots/lookback.webp"
     },
     {
+      "slug": "loopwall",
+      "name": "Loopwall",
+      "author": "Lumiaqian",
+      "kind": "native",
+      "platforms": [
+        "mac"
+      ],
+      "group": "media",
+      "category": null,
+      "url": "https://github.com/Lumiaqian/loopwall",
+      "repo": "Lumiaqian/loopwall",
+      "identifier": "local.lumiaqian.loopwall",
+      "summary": {
+        "en": "Local video wallpaper app for Apple Silicon Macs with per-display themes and LAN sharing.",
+        "zh-CN": "专为 Apple Silicon Mac 打造的本地视频动态壁纸应用，支持多屏独立轮播、多主题与局域网互传。",
+        "zh-TW": "專為 Apple Silicon Mac 打造的本機影片動態桌布應用，支援多螢幕獨立輪播、多主題與區域網路互傳。",
+        "ja": "Apple Silicon Mac 向けのローカル動画壁紙アプリ。ディスプレイ別テーマと LAN 共有に対応。",
+        "ko": "Apple Silicon Mac용 로컬 동영상 배경화면 앱. 디스플레이별 테마와 LAN 공유를 지원합니다."
+      },
+      "description": {
+        "en": "A local video live-wallpaper app for Apple Silicon Macs running macOS 26+, combining a Go manager drawn with MyGo's native UI and Liquid Glass styling with a standalone Swift 6 wallpaper extension that keeps playing even after the manager quits. It supports multiple playlist themes, independent per-display rotation or pinning, APFS-clone lossless video import, power-saving pauses, two-Mac short-code LAN sharing over mTLS, and Ed25519-signed in-app updates.",
+        "zh-CN": "面向 Apple Silicon 与 macOS 26+ 的本地视频动态壁纸应用，采用 MyGo 原生 Liquid Glass 管理端搭配独立 Swift 6 墙纸扩展，退出管理端后桌面与锁屏仍持续无缝播放。支持多套轮播主题自由切换、多屏独立轮播与单屏固定、APFS 克隆无损导入、省电模式、双 Mac 短码核对局域网双向互传，以及 Ed25519 签名应用内自动更新。",
+        "zh-TW": "面向 Apple Silicon 與 macOS 26+ 的本機影片動態桌布應用，結合 MyGo 原生 Liquid Glass 管理端與獨立 Swift 6 桌布擴充功能，退出管理端後桌面與鎖定畫面仍持續無縫播放。支援多組輪播主題切換、多螢幕獨立輪播與單螢幕固定、APFS 複製無損匯入、省電模式、雙 Mac 短碼核對區網雙向互傳，以及 Ed25519 簽章應用內自動更新。",
+        "ja": "Apple Silicon・macOS 26 以降向けのローカル動画ライブ壁紙アプリ。MyGo のネイティブ UI・Liquid Glass で描かれた Go 管理アプリと独立した Swift 6 壁紙拡張機能を組み合わせ、管理アプリを終了してもデスクトップとロック画面で再生を続けます。複数プレイリストテーマの切替、ディスプレイ別の独立ローテーションと固定、APFS クローンによる無劣化取り込み、省電力モード、mTLS と短い確認コードによる Mac 間 LAN 共有、Ed25519 署名付きアプリ内更新に対応します。",
+        "ko": "Apple Silicon과 macOS 26 이상을 위한 로컬 동영상 라이브 배경화면 앱입니다. MyGo 네이티브 UI와 Liquid Glass로 만든 Go 관리 앱과 독립 Swift 6 배경화면 확장 프로그램을 결합해 관리 앱을 종료해도 바탕화면과 잠금 화면에서 끊김 없이 재생됩니다. 다중 재생 테마 전환, 디스플레이별 독립 순환 및 고정, APFS 클론 무손실 가져오기, 절전 모드, mTLS 및 짧은 확인 코드 기반 Mac 간 LAN 공유, Ed25519 서명 앱 내 자동 업데이트를 지원합니다."
+      },
+      "added": "2026-11-27T09:20:01Z",
+      "score": 33.5,
+      "likes": 0,
+      "stars": null,
+      "license": null,
+      "icon": "assets/icons/loopwall.webp",
+      "shot": "assets/shots/loopwall.webp"
+    },
+    {
       "slug": "lorca",
       "name": "Lorca",
       "author": "egoist",
@@ -10001,9 +10215,9 @@
         "ko": "캠퍼스 학습과 생활을 위한 도구 모음으로, 시간표, 성적, 시험, 캠퍼스 카드, 전기 요금, 출입, 수리 신청, 강의 평가 보조를 한곳에 모았습니다. 이 항목은 저장소의 desktop-go 폴더에 있는, MyGo의 네이티브 UI로 만든 데스크톱 버전입니다. Android(Kotlin, Jetpack Compose), iOS(SwiftUI), Flutter 데스크톱 클라이언트는 별도로 만들어집니다."
       },
       "added": "2026-11-18T02:31:35Z",
-      "score": 51.1,
+      "score": 51.4,
       "likes": 0,
-      "stars": 16,
+      "stars": 17,
       "license": "Apache-2.0",
       "icon": "assets/icons/loveace.webp",
       "shot": "assets/shots/loveace.webp"
@@ -10183,7 +10397,7 @@
       "added": "2026-11-05T00:46:37Z",
       "score": 84.2,
       "likes": 2,
-      "stars": 401,
+      "stars": 402,
       "license": "AGPL-3.0",
       "icon": "assets/icons/lunabox.webp",
       "shot": "assets/shots/lunabox.webp"
@@ -10218,7 +10432,7 @@
         "ko": "공식 osu!lazer와 DeltaLazer, Ez2Lazer, g0v0 같은 포크를 한 컴퓨터에서 쓰기 위한 데스크톱 도구입니다. 비트맵, 스킨, 점수, 설정을 로컬 허브와 하나의 파일 저장소에 모은 뒤 원하는 항목을 파일 링크로 어느 포크에든 배포하며, 쓰기 전에 대상 스키마에 맞게 데이터를 바꾸고 client.realm을 백업합니다. UI는 TypeScript와 Vite로 만든 MyGo 웹 프런트엔드이며 Windows, macOS, Linux용이 있습니다."
       },
       "added": "2026-11-05T14:23:33Z",
-      "score": 51.3,
+      "score": 52.0,
       "likes": 0,
       "stars": 0,
       "license": "MIT",
@@ -10505,8 +10719,8 @@
         "ko": "矩聯電子教室는 전자 교실 환경을 위한 교사용·학생용 소프트웨어입니다. Go와 MyGo 네이티브 UI로 개발되었으며, 고성능 프로토콜인 KCP/SMUX 다중화를 사용해 근거리 통신망(LAN) 통신을 수행합니다. 화면 방송, 화면 모니터링, 수업 메시지, 파일 배포, 과제 수거, 수시 퀴즈, 출석 확인, 원격 제어, 관리 정책 등의 기능을 제공합니다. 주로 학교 교사의 수업 활용과 교실 관리자의 일괄 관리·제어를 대상으로 합니다."
       },
       "added": "2026-11-24T17:44:01Z",
-      "score": 41.3,
-      "likes": 0,
+      "score": 45.5,
+      "likes": 2,
       "stars": 1,
       "license": "GPL-3.0",
       "icon": "assets/icons/matrixclass.webp",
@@ -10542,9 +10756,9 @@
         "ko": "Go로 작성하고 MyGo의 네이티브 UI로 GPU에서 그리는 코드 편집기로, 웹 뷰도 Electron도 없이 패키지 크기가 약 18MB입니다. Vim 모드, 분할 열, 파일 전체 검색과 바꾸기, diff와 커밋 그래프가 있는 Git 뷰, Ghostty 터미널을 갖췄고, 다른 컴퓨터의 폴더를 SSH로 열 수 있습니다. macOS 13 이상, GTK 3이 있는 Linux, Windows에서 실행됩니다."
       },
       "added": "2026-11-05T00:45:32Z",
-      "score": 94.5,
-      "likes": 17,
-      "stars": 707,
+      "score": 94.7,
+      "likes": 18,
+      "stars": 714,
       "license": "MIT",
       "icon": "assets/icons/mayoi.webp",
       "shot": "assets/shots/mayoi.webp"
@@ -10713,7 +10927,7 @@
       "added": "2026-11-04T02:24:49Z",
       "score": 87.3,
       "likes": 5,
-      "stars": 355,
+      "stars": 357,
       "license": "GPL-3.0",
       "icon": "assets/icons/meiro.webp",
       "shot": "assets/shots/meiro.webp"
@@ -11067,9 +11281,9 @@
         "ko": "내 컴퓨터에서 에이전트 동료를 실행하는 앱으로, Claude Code나 Codex처럼 이미 쓰는 코딩 에이전트로 움직이며 Mingle 서버나 계정이 필요 없습니다. 각 에이전트는 봇으로 WeChat, Feishu, Slack, Telegram 등 채팅 앱에 들어가 모든 곳에서 하나의 기억을 공유합니다. MyGo로 만든 것은 데스크톱 앱으로, Mingle의 웹 콘솔을 창과 메뉴 막대 아이콘에 담았고, 본체와 명령줄은 Node.js로 실행됩니다."
       },
       "added": "2026-11-18T02:31:35Z",
-      "score": 73.8,
+      "score": 74.2,
       "likes": 1,
-      "stars": 185,
+      "stars": 190,
       "license": "MIT",
       "icon": "assets/icons/mingle.webp",
       "shot": "assets/shots/mingle.webp"
@@ -11101,8 +11315,8 @@
         "ko": "로컬 코드 저장소를 위한 AI 코딩 작업 환경 MiniCode의 Windows 데스크톱 버전으로, MyGo의 네이티브 UI로 그렸습니다. 에이전트 런타임, CLI, 터미널 UI는 Rust와 Ink로 따로 만들었습니다. 프로젝트의 파일을 읽고 편집하고 명령을 실행하며, 변경 사항은 Diff로 보여 주고 쓰기와 명령 실행 전에는 승인을 받습니다. 직접 준비한 OpenAI 호환 서비스나 Anthropic 서비스에 연결하고 Skills와 MCP로 확장할 수 있습니다."
       },
       "added": "2026-11-05T04:00:52Z",
-      "score": 63.3,
-      "likes": 1,
+      "score": 64.9,
+      "likes": 2,
       "stars": 3,
       "license": "MIT",
       "icon": "assets/icons/minicode.webp",
@@ -11214,7 +11428,7 @@
       "added": "2026-11-04T02:24:49Z",
       "score": 86.1,
       "likes": 2,
-      "stars": 487,
+      "stars": 489,
       "license": "GPL-3.0",
       "icon": "assets/icons/mixmusic.webp",
       "shot": "assets/shots/mixmusic.webp"
@@ -11468,7 +11682,7 @@
       "added": "2026-11-05T00:48:23Z",
       "score": 71.5,
       "likes": 1,
-      "stars": 192,
+      "stars": 193,
       "license": "MIT",
       "icon": "assets/icons/monitorbar.webp",
       "shot": "assets/shots/monitorbar.webp"
@@ -11608,7 +11822,7 @@
         "ko": "Windows와 Mac용 소프트웨어 KVM입니다. LAN의 여러 컴퓨터를 키보드와 마우스 하나로 조작하고, 커서를 화면 가장자리로 옮기면 전환됩니다. 연결은 암호화되며 텍스트와 PNG 클립보드도 동기화하고, 화면은 전송하지 않습니다. lan-mouse에서 나온 Mousehop의 포크로, 입력 백엔드와 백그라운드 서비스는 Rust 그대로 두고 GTK 화면을 MyGo의 네이티브 UI로 바꿨습니다."
       },
       "added": "2026-11-05T04:16:52Z",
-      "score": 35.4,
+      "score": 36.5,
       "likes": 0,
       "stars": 2,
       "license": "GPL-3.0",
@@ -12037,9 +12251,9 @@
         "ko": "Windows x64 호스트용 가상 머신 관리자로, Hyper-V의 Host Compute Service 위에 만들어졌고 화면은 MyGo의 네이티브 UI로 그립니다. Windows와 Linux 게스트를 실행하고, 메모리와 장치 상태까지 담은 스냅샷을 분기로 관리합니다. 향상된 세션으로 GNOME이나 KDE Plasma 데스크톱에 연결해 클립보드를 공유하고, 호스트 폴더도 공유할 수 있습니다. 현재 UI는 중국어 간체로만 제공됩니다."
       },
       "added": "2026-11-06T06:33:05Z",
-      "score": 21.8,
+      "score": 23.0,
       "likes": 0,
-      "stars": 2,
+      "stars": 3,
       "license": null,
       "icon": "assets/icons/my-vm.webp",
       "shot": "assets/shots/my-vm.webp"
@@ -12181,10 +12395,10 @@
         "ko": "macOS(Apple Silicon)와 Windows 10/11용 비공식 Douyin·Hongguo 숏드라마 데스크톱 클라이언트로, MyGo의 네이티브 UI로 그렸으며 Electron도 Android 에뮬레이터도 쓰지 않습니다. 한 창에서 Douyin 영상, 라이브, 댓글과 Hongguo의 무료 숏드라마를 오가며, 둘 다 로그인 없이 볼 수 있습니다. 영상은 시스템 하드웨어 디코더로 재생해 FFmpeg를 설치할 필요가 없습니다."
       },
       "added": "2026-11-26T02:31:39Z",
-      "score": 46.9,
+      "score": 63.2,
       "likes": 0,
-      "stars": 27,
-      "license": null,
+      "stars": 37,
+      "license": "Apache-2.0",
       "icon": "assets/icons/mydouyin.webp",
       "shot": "assets/shots/mydouyin.webp"
     },
@@ -12252,9 +12466,9 @@
         "ko": "MyGo의 네이티브 UI로 그린 git 클라이언트로, 웹 뷰가 없고 코딩 에이전트가 저장소를 고치는 동안 화면이 바로 갱신됩니다. JetBrains 스타일의 커밋 그래프와 히스토리에 VS Code 스타일의 스테이징을 더해 한 줄 단위로 스테이징하고, diff에서 파일을 바로 고치고, 3단 화면에서 충돌을 해결하며, SSH나 WSL의 저장소도 열 수 있습니다. macOS(Apple 실리콘), Windows, Linux에서 실행됩니다."
       },
       "added": "2026-11-05T00:53:16Z",
-      "score": 79.2,
+      "score": 79.4,
       "likes": 4,
-      "stars": 64,
+      "stars": 66,
       "license": "MIT",
       "icon": "assets/icons/mygit.webp",
       "shot": "assets/shots/mygit.webp"
@@ -12358,9 +12572,9 @@
         "ko": "mihomo(Clash Meta) 코어 기반의 macOS·Windows·Linux용 프록시 클라이언트로, 창은 MyGo 네이티브 UI로 그려집니다. 시스템 프록시와 TUN 모드, 구독 관리를 지원하고, 따로 설치할 필요 없는 사용자 공간 Tailscale 노드를 내장했습니다. 구독과 설정은 어떤 WebDAV 서비스로든 여러 컴퓨터 간에 종단간 암호화로 동기화됩니다."
       },
       "added": "2026-11-06T03:34:18Z",
-      "score": 71.0,
+      "score": 71.2,
       "likes": 2,
-      "stars": 14,
+      "stars": 15,
       "license": "GPL-3.0",
       "icon": "assets/icons/mygo-clash.webp",
       "shot": "assets/shots/mygo-clash.webp"
@@ -12469,7 +12683,7 @@
       "added": "2026-11-08T23:53:54Z",
       "score": 86.3,
       "likes": 30,
-      "stars": 1557,
+      "stars": 1563,
       "license": "AGPL-3.0",
       "icon": "assets/icons/mygo-music.webp",
       "shot": "assets/shots/mygo-music.webp"
@@ -12828,9 +13042,9 @@
         "ko": "Mypack은 웹사이트나 로컬 HTML 프로젝트를 고유한 아이콘과 로그인 상태를 가진 독립된 데스크톱 앱으로 만들며, 앱은 시스템 WebView로 실행됩니다. 컴파일 없이 미리 빌드된 작은 런타임에 설정을 써 넣어 몇 초 만에 빌드하고, 라이브러리에서 앱을 업데이트, 복구, 제거할 수 있습니다. 빌더는 MyGo의 네이티브 UI로 그렸습니다. 주 플랫폼은 macOS이고 Linux와 Windows는 아직 테스트 중입니다."
       },
       "added": "2026-11-12T10:11:59Z",
-      "score": 61.4,
+      "score": 61.5,
       "likes": 1,
-      "stars": 99,
+      "stars": 101,
       "license": "Apache-2.0",
       "icon": "assets/icons/mypack.webp",
       "shot": "assets/shots/mypack.webp"
@@ -12863,9 +13077,9 @@
         "ko": "shoes 프록시 커널을 위한 Windows 10/11·Apple Silicon Mac용 클라이언트로, MyGo의 네이티브 UI로 그렸고 커널도 함께 들어 있습니다. 공유 링크와 구독 URL을 가져오고, v2rayN과 같은 방식으로 실제 연결 지연을 재며, 규칙 또는 전역 모드로 트래픽을 나누고, 트레이에 상주하며 시스템 프록시를 맡습니다. 노드와 설정은 암호화해 로컬에 저장하고, 업데이트는 서명을 확인한 뒤 설치합니다."
       },
       "added": "2026-11-05T03:22:12Z",
-      "score": 66.2,
+      "score": 66.6,
       "likes": 1,
-      "stars": 9,
+      "stars": 10,
       "license": "GPL-3.0",
       "icon": "assets/icons/myshoes.webp",
       "shot": "assets/shots/myshoes.webp"
@@ -12969,9 +13183,9 @@
         "ko": "MyGo의 네이티브 UI로 그린 Windows·Apple 실리콘 Mac용 비공식 Spotify 플레이어입니다. 무료 계정으로도 곡 전체를 재생하고, 뮤직비디오, 스크립트가 있는 팟캐스트, 넷이즈 클라우드 뮤직과 LRCLIB에서 보충하는 싱크 가사, 실험적인 Spotify Connect를 지원합니다. 웹 플레이어의 비공개 API를 쓰기 때문에 언제든 작동하지 않을 수 있고 Spotify 이용약관에 어긋날 수도 있습니다."
       },
       "added": "2026-11-05T01:50:45Z",
-      "score": 87.6,
+      "score": 87.9,
       "likes": 7,
-      "stars": 294,
+      "stars": 318,
       "license": "AGPL-3.0",
       "icon": "assets/icons/myspotify.webp",
       "shot": "assets/shots/myspotify.webp"
@@ -13185,7 +13399,7 @@
         "ko": "MyGo의 네이티브 GPU 렌더링으로 그린 NaiveProxy 클라이언트 관리 앱으로, macOS, Linux, Windows를 지원하며 Electron이나 WebKit 런타임 없이 유휴 시 메모리를 약 50MB 사용합니다. 로컬 SOCKS5, HTTP, Redir 서비스를 여러 개 동시에 실행하고, 지연 시간과 다운로드 속도를 측정하며, 서비스별 로그를 보고, 링크를 일괄 가져오고, GitHub Releases에서 NaiveProxy 코어를 자동으로 업데이트합니다."
       },
       "added": "2026-11-05T03:32:35Z",
-      "score": 57.2,
+      "score": 57.9,
       "likes": 0,
       "stars": 3,
       "license": "AGPL-3.0",
@@ -13367,7 +13581,7 @@
         "ko": "MyGo의 네이티브 UI로 그린 macOS·Windows·Linux용 Git 클라이언트로, Electron도 WebView도 쓰지 않습니다. 워크스페이스의 모든 저장소를 하나의 브랜치 매트릭스와 변경 트리에 모아 헝크·줄 단위로 스테이징하고 한꺼번에 커밋·푸시하며, 대화형 리베이스와 reflog도 지원합니다. AI 커밋 메시지 생성과 LSP는 선택 사항이고, 플러그인으로 GitLab, Jenkins, Kubernetes 등과 연결됩니다."
       },
       "added": "2026-11-05T02:55:41Z",
-      "score": 53.8,
+      "score": 54.1,
       "likes": 0,
       "stars": 3,
       "license": "MIT",
@@ -13474,9 +13688,9 @@
         "ko": "MyGo의 네이티브 UI로 그린 Windows 10·11용 네트워크 설정 도구 모음으로, Electron도 WebView도 쓰지 않습니다. 현장별로 묶은 프리셋으로 어댑터의 IP, DNS, MAC을 바꾸고, 적용 전에 IP 충돌을 확인하며 변경 전 스냅숏으로 클릭 한 번에 되돌릴 수 있습니다. 어댑터 두 개를 쓰는 환경을 위한 내부망 분리 라우팅, C 클래스 일괄 Ping, 시스템 프록시와 Hosts 관리도 들어 있습니다."
       },
       "added": "2026-11-25T09:12:41Z",
-      "score": 40.0,
+      "score": 42.8,
       "likes": 0,
-      "stars": 2,
+      "stars": 3,
       "license": "MIT",
       "icon": "assets/icons/netshift.webp",
       "shot": "assets/shots/netshift.webp"
@@ -14370,9 +14584,9 @@
         "ko": "64비트 Windows 10·11용 Razer 마우스와 기타 Razer 장치 설정 앱으로, Razer Synapse 없이 동작하며 계정이나 인터넷 연결도 쓰지 않습니다. DPI, 조명, 폴링 레이트, 전원 옵션을 설정하고 마우스 버튼에 매크로를 지정하며, 앞에 있는 프로그램에 따라 설정을 자동으로 바꿉니다. Go로 작성했고 웹 프런트엔드는 MyGo의 WebView2 창에서 실행됩니다."
       },
       "added": "2026-11-05T03:47:54Z",
-      "score": 51.1,
+      "score": 51.6,
       "likes": 1,
-      "stars": 7,
+      "stars": 8,
       "license": "GPL-2.0",
       "icon": "assets/icons/opensynapse.webp",
       "shot": "assets/shots/opensynapse.webp"
@@ -14621,7 +14835,7 @@
         "ko": "OShell의 Windows·Linux 버전으로, MyGo의 네이티브 UI와 Ghostty VT로 만들었습니다. macOS용 OShell은 별도 앱으로 이 프로젝트에서 빌드하지 않으며, 공유 폴더나 WebDAV로 설정을 동기화할 수 있습니다. SSH와 로컬 터미널, 화면 분할, 탭 그룹, 다중 창, 프록시와 점프 호스트를 지원하고, SFTP·FTP·SCP·ZMODEM으로 파일을 전송하며 SFTP는 일시 중지와 이어받기가 됩니다."
       },
       "added": "2026-11-06T04:56:38Z",
-      "score": 58.8,
+      "score": 59.1,
       "likes": 0,
       "stars": 2,
       "license": "GPL-3.0",
@@ -14912,7 +15126,7 @@
         "ko": "MyGo의 네이티브 UI로 만든 데스크톱 앱으로, 한 창에서 시스템 WebView로 사이트의 페이지를 2~10개 엽니다. 기본 페이지에서 한 조작이 다른 페이지에서 실시간으로 재생되므로, 언어나 도메인, 환경이 다른 버전에서 같은 흐름을 한 번에 확인할 수 있습니다. 스크린샷, 재생 가능한 스크립트, HTML 보고서를 남기며, 내장 MCP 서버로 AI 에이전트가 조작하게 할 수도 있습니다."
       },
       "added": "2026-11-18T03:07:57Z",
-      "score": 62.2,
+      "score": 62.7,
       "likes": 9,
       "stars": 4,
       "license": "MIT",
@@ -15092,7 +15306,7 @@
       "added": "2026-11-26T02:31:39Z",
       "score": 81.9,
       "likes": 0,
-      "stars": 2784,
+      "stars": 2814,
       "license": "Apache-2.0",
       "icon": "assets/icons/pinky.webp",
       "shot": "assets/shots/pinky.webp"
@@ -15231,9 +15445,9 @@
         "ko": "MyGo의 네이티브 UI로 그린 Windows x64용 포터블 앱입니다. chrome++.ini를 직접 고치지 않고 Chrome++ Next의 탭·마우스 동작, 단축키, 보스 키 등을 설정하며, 저장 전에 변경 사항을 미리 확인하고 주석과 키 순서를 유지합니다. 포터블 Chrome을 설치하고 Chrome과 Chrome++ Next를 수동, 확인 후, 자동 방식으로 업데이트하며, 교체된 버전을 남겨 롤백할 수 있습니다."
       },
       "added": "2026-11-05T02:43:19Z",
-      "score": 69.8,
+      "score": 70.2,
       "likes": 2,
-      "stars": 35,
+      "stars": 39,
       "license": "GPL-3.0",
       "icon": "assets/icons/pitstop.webp",
       "shot": "assets/shots/pitstop.webp"
@@ -15511,9 +15725,9 @@
         "ko": "MyGo의 네이티브 UI로 그린 Apple Silicon Mac용 포트 인스펙터입니다. ngrep처럼 libpcap으로 지정한 포트의 트래픽을 패시브 방식으로 캡처하며 프록시를 두지 않습니다. HTTP/1.x 요청과 응답을 짝지어 Body, Headers, Raw, Hex로 보여 줍니다. HTTPS는 복호화하지 않으며, 캡처 결과는 JSON으로 내보내지 않는 한 메모리에만 남습니다."
       },
       "added": "2026-11-05T12:35:14Z",
-      "score": 38.2,
+      "score": 41.2,
       "likes": 0,
-      "stars": 1,
+      "stars": 3,
       "license": "MIT",
       "icon": "assets/icons/portglass.webp",
       "shot": "assets/shots/portglass.webp"
@@ -15653,7 +15867,7 @@
       "added": "2026-11-18T02:31:35Z",
       "score": 68.2,
       "likes": 0,
-      "stars": 73,
+      "stars": 74,
       "license": "Apache-2.0",
       "icon": "assets/icons/progen-desktop.webp",
       "shot": "assets/shots/progen-desktop.webp"
@@ -16150,7 +16364,7 @@
       "added": "2026-11-04T14:36:05Z",
       "score": 84.5,
       "likes": 2,
-      "stars": 335,
+      "stars": 338,
       "license": "AGPL-3.0",
       "icon": "assets/icons/quosparr.webp",
       "shot": "assets/shots/quosparr.webp"
@@ -16255,9 +16469,9 @@
         "ko": "MyGo의 네이티브 UI로 그린 macOS·Windows·Linux용 디자인 에셋 관리자입니다. Electron 없이 데이터를 로컬의 bbolt 데이터베이스 하나에 저장합니다. 파일을 인덱스, 심볼릭 링크, 이동, 복사로 가져오고, 글꼴·오디오·SVG·PDF를 바로 미리 보며, 시각적 유사도와 색상으로 오프라인 검색할 수 있습니다. 무한 무드보드는 PureRef처럼 테두리 없이 항상 위에 뜨는 창으로 띄웁니다."
       },
       "added": "2026-11-22T14:58:00Z",
-      "score": 50.9,
-      "likes": 2,
-      "stars": 2,
+      "score": 53.2,
+      "likes": 3,
+      "stars": 3,
       "license": "MPL-2.0",
       "icon": "assets/icons/raglex.webp",
       "shot": "assets/shots/raglex.webp"
@@ -16328,9 +16542,9 @@
         "ko": "Rakko는 macOS와 Windows 화면 상단에 파일 트레이, 클립보드 기록, 검색, 음악 및 유용한 도구를 모아 둔 네이티브 앱입니다."
       },
       "added": "2026-11-17T08:17:58Z",
-      "score": 77.4,
+      "score": 77.5,
       "likes": 0,
-      "stars": 172,
+      "stars": 175,
       "license": "Apache-2.0",
       "icon": "assets/icons/rakko.webp",
       "shot": "assets/shots/rakko.webp"
@@ -16363,9 +16577,9 @@
         "ko": "MyGo의 네이티브 UI로 그린 Xray-core 기반 Windows x64 프록시 클라이언트입니다. 공유 링크, Base64 구독, Clash / Mihomo YAML을 가져오며 VLESS, VMess, Trojan, Hysteria2 등 여러 프로토콜을 지원합니다. 시스템 프록시나 TUN 모드로 사용자 지정 라우팅 규칙과 함께 동작하고, 그룹별로 프록시 체인을 설정할 수 있습니다. Xray와 Wintun을 함께 제공하지만 노드나 구독은 제공하지 않습니다."
       },
       "added": "2026-11-06T03:54:55Z",
-      "score": 62.6,
+      "score": 63.6,
       "likes": 1,
-      "stars": 3,
+      "stars": 4,
       "license": "MIT",
       "icon": "assets/icons/raydock.webp",
       "shot": "assets/shots/raydock.webp"
@@ -16509,10 +16723,10 @@
         "ko": "Go와 MyGo로 만든 Redis 데스크톱 관리 도구로, Go 앱에 내장된 웹 프런트엔드를 씁니다. 연결을 저장하고 테스트하며, SCAN으로 키를 탐색하고, 내장 CLI로 명령을 실행하고, 수집한 지표를 차트로 보여 줍니다. String 값은 원본, JSON, Hex, HTML, Markdown으로 볼 수 있습니다. 비밀번호는 시스템 자격 증명 저장소에 저장되며, README는 macOS 패키징만 설명합니다."
       },
       "added": "2026-11-08T02:29:20Z",
-      "score": 45.9,
+      "score": 59.9,
       "likes": 1,
       "stars": 6,
-      "license": null,
+      "license": "MIT",
       "icon": "assets/icons/redis-manager.webp",
       "shot": "assets/shots/redis-manager.webp"
     },
@@ -17259,7 +17473,7 @@
         "ko": "MyGo의 네이티브 UI로 그린 Windows 10·11 및 macOS 14.4+(Apple Silicon)용 트레이 앱으로, 웹 뷰를 쓰지 않습니다. WASAPI 루프백(Windows)과 Core Audio 프로세스 탭(macOS)으로 시스템 소리 전체 또는 특정 앱의 소리만 캡처해 압축하지 않은 ALAC로 AirPlay 2를 통해 HomePod, HomePod mini, 스테레오 페어, Mac에 보냅니다. Apple TV도 지원하지만 아직 실제 기기에서 검증되지 않았습니다. 하나의 트레이 패널에 미디어 카드, 수신기 볼륨, 지연 시간, HomePod 앰비언트 라이트가 들어 있습니다. 오디오 전용이라 화면 미러링은 되지 않으며, Apple FairPlay가 필요한 수신기는 탐색 단계에서 감지되어 연결하지 않습니다."
       },
       "added": "2026-11-04T11:59:55Z",
-      "score": 71.5,
+      "score": 71.8,
       "likes": 5,
       "stars": 9,
       "license": "GPL-3.0",
@@ -17295,8 +17509,8 @@
         "ko": "Go로 작성하고 MyGo의 네이티브 UI로 만든 macOS·Windows·Linux용 받아쓰기 앱입니다. 키를 누르고 말하면 Sayso가 사용 중인 앱에 텍스트를 붙여 넣으며, 음성 인식은 Parakeet, Whisper 같은 모델로 컴퓨터에서 처리합니다. 클라우드 모델이나 프롬프트로 전사문을 다듬는 AI 스타일(이메일용 등)을 고르지 않으면 데이터가 컴퓨터 밖으로 나가지 않습니다."
       },
       "added": "2026-11-26T02:31:39Z",
-      "score": 72.6,
-      "likes": 0,
+      "score": 75.2,
+      "likes": 1,
       "stars": 56,
       "license": "GPL-3.0",
       "icon": "assets/icons/sayso.webp",
@@ -17437,9 +17651,9 @@
         "ko": "Go로 작성하고 MyGo의 네이티브 UI로 그린 macOS·Windows·Linux용 소스 코드 리더로, 웹 뷰가 없습니다. 폴더를 열면 파일 트리, 탭, 검색, 심볼, 터미널을 한 창에서 쓸 수 있고, Go·TypeScript·JavaScript는 앱에서 설치할 수 있는 언어 서버를 통해 정의, 참조, 호버 도움말을 제공합니다. 변경 사항을 스테이징하고 커밋하고 비교하며, Git 기록을 그래프로 볼 수 있습니다."
       },
       "added": "2026-11-05T01:50:45Z",
-      "score": 64.0,
+      "score": 64.5,
       "likes": 1,
-      "stars": 108,
+      "stars": 121,
       "license": null,
       "icon": "assets/icons/see.webp",
       "shot": "assets/shots/see.webp"
@@ -17509,7 +17723,7 @@
         "ko": "Serval은 Go와 MyGo 네이티브 UI(WebView 없음)로 제작된 경량 SSH 클라이언트입니다. 멀티 탭 분할 터미널, 점프 호스트 및 프록시, 포트 포워딩, 듀얼 페인 SFTP 및 인라인 편집, ZMODEM 전송, 실시간 서버 모니터링, AI 에이전트, WebDAV / S3 / GitHub Gist 기반 종단간 암호화 볼트 동기화를 지원합니다."
       },
       "added": "2026-11-19T09:48:00Z",
-      "score": 50.0,
+      "score": 50.9,
       "likes": 0,
       "stars": 0,
       "license": "MIT",
@@ -17935,7 +18149,7 @@
         "ko": "MyGo의 네이티브 UI로 그린 절전 타이머로, Windows x64와 Apple Silicon·Intel macOS를 지원합니다. 최대 24시간 카운트다운이나 특정 시각을 정하고 창을 닫으면 트레이로 들어갑니다. 시간이 되면 60초 동안 알려 주며 그사이 취소하거나 15분 미룰 수 있고, 이후 시스템에 절전을 요청합니다. 기존 전원 설정을 따르며 컴퓨터를 깨어 있게 유지하지 않습니다."
       },
       "added": "2026-11-05T17:06:44Z",
-      "score": 34.3,
+      "score": 35.4,
       "likes": 0,
       "stars": 0,
       "license": "MIT",
@@ -18050,6 +18264,41 @@
       "shot": "assets/shots/snip.webp"
     },
     {
+      "slug": "snipgo",
+      "name": "SnipGo",
+      "author": "Lumiaqian",
+      "kind": "native",
+      "platforms": [
+        "mac"
+      ],
+      "group": "system",
+      "category": null,
+      "url": "https://github.com/Lumiaqian/snipgo",
+      "repo": "Lumiaqian/snipgo",
+      "identifier": "app.snipgo",
+      "summary": {
+        "en": "A lightweight, local-first macOS screenshot, annotation, OCR and floating pin tool built in pure Go.",
+        "zh-CN": "纯 Go 打造的轻量、全本地离线 macOS 截图、标注、识图与悬浮贴图工具。",
+        "zh-TW": "以純 Go 打造的輕量、全本機離線 macOS 截圖、標註、識圖與懸浮貼圖工具。",
+        "ja": "純 Go で作られた軽量・完全ローカル動作の macOS 向けスクリーンショット・注釈・OCR・フローティングピンツール。",
+        "ko": "순수 Go로 만든 가볍고 완전 로컬 오프라인 macOS 스크린샷·주석·OCR·플로팅 핀 도구."
+      },
+      "description": {
+        "en": "A fast, offline screenshot and floating pin utility for macOS 14+, built in pure Go (CGO_ENABLED=0) with MyGo's native UI and Liquid Glass styling. It calls ScreenCaptureKit, Vision, CoreGraphics and AppKit via purego for instant transparent capture, 10 vector annotation tools, a 10-template mockup studio, developer color picking (HEX/RGB/OKLCH/Tailwind), offline AI subject cutout, table OCR, scrolling capture, and side-by-side diff pins.",
+        "zh-CN": "面向 macOS 14+ 的极速、全本地离线截图与悬浮贴图工具，采用纯 Go（CGO_ENABLED=0）与 MyGo 原生 UI 及 Liquid Glass 界面构建。通过 purego 调用 ScreenCaptureKit、Vision、CoreGraphics 与 AppKit，提供 0ms 透明框选、10 种矢量标注、10 套模板工作台、开发者取色卡（HEX/RGB/OKLCH/Tailwind）、离线 AI 主体抠图、表格识图、滚动长截图与拉帘对比贴图。",
+        "zh-TW": "面向 macOS 14+ 的極速、全本機離線截圖與懸浮貼圖工具，以純 Go（CGO_ENABLED=0）搭配 MyGo 原生 UI 與 Liquid Glass 介面打造。透過 purego 呼叫 ScreenCaptureKit、Vision、CoreGraphics 與 AppKit，支援即時透明框選、10 種向量標註、10 套範本工作台、開發者取色卡（HEX/RGB/OKLCH/Tailwind）、離線 AI 主體去背、表格識圖、捲動長截圖與拉簾對比貼圖。",
+        "ja": "macOS 14 以降向けの高速なオフライン・スクリーンショット＆フローティングピンツール。純 Go（CGO_ENABLED=0）と MyGo のネイティブ UI・Liquid Glass デザインで構築されています。purego 経由で ScreenCaptureKit・Vision・CoreGraphics・AppKit を呼び出し、透過範囲選択、10 種のベクター注釈、10 種のテンプレートスタジオ、開発者向けカラーピッカー（HEX/RGB/OKLCH/Tailwind）、オフライン AI 切り抜き、表 OCR、スクロール撮影、比較ピンを備えます。",
+        "ko": "macOS 14 이상을 위한 빠르고 오프라인으로 동작하는 스크린샷 및 플로팅 핀 도구입니다. 순수 Go(CGO_ENABLED=0)와 MyGo 네이티브 UI, Liquid Glass 디자인으로 제작되었으며 purego로 ScreenCaptureKit, Vision, CoreGraphics, AppKit을 직접 호출합니다. 투명 영역 캡처, 10종 벡터 주석, 10종 템플릿 스튜디오, 개발자 컬러 피커(HEX/RGB/OKLCH/Tailwind), 오프라인 AI 누끼, 표 OCR, 스크롤 캡처, 비교 핀을 지원합니다."
+      },
+      "added": "2026-11-27T09:20:00Z",
+      "score": 33.5,
+      "likes": 0,
+      "stars": null,
+      "license": null,
+      "icon": "assets/icons/snipgo.webp",
+      "shot": "assets/shots/snipgo.webp"
+    },
+    {
       "slug": "sokki",
       "name": "Sokki",
       "author": "sorrycc",
@@ -18078,7 +18327,7 @@
         "ko": "Go로 작성하고 창을 MyGo의 네이티브 UI로 그린 Apple 실리콘 Mac용 메뉴 막대 텍스트 확장 도구입니다. 어느 앱에서든 :hello 같은 트리거를 입력하면 펼쳐지고, 클립보드와 날짜 변수를 쓸 수 있으며, 암호 입력란에서는 아무것도 읽지 않습니다. Spotlight 스타일 팔레트로 스니펫과 프롬프트를 찾습니다. 매치는 YAML 파일에 두고, sokki 명령으로 앱에서 하는 일을 터미널에서도 할 수 있습니다."
       },
       "added": "2026-11-05T11:50:47Z",
-      "score": 27.0,
+      "score": 27.9,
       "likes": 0,
       "stars": 0,
       "license": null,
@@ -18182,9 +18431,9 @@
         "ko": "MyGo의 네이티브 UI로 그린 Windows 10/11용 번역기입니다. 클립보드를 건드리지 않고 선택한 텍스트를 읽거나, 화면 영역을 기기에서 오프라인 OCR로 인식하거나, 패널에 입력한 텍스트를 번역하며, Google Translate, DeepL, OpenAI 호환 모델 등 여러 서비스의 결과를 스트리밍으로 나란히 보여 줍니다. API 키는 Windows 자격 증명 관리자에 저장됩니다."
       },
       "added": "2026-11-14T02:29:31Z",
-      "score": 65.7,
-      "likes": 0,
-      "stars": 25,
+      "score": 68.8,
+      "likes": 1,
+      "stars": 28,
       "license": "GPL-3.0",
       "icon": "assets/icons/sotto.webp",
       "shot": "assets/shots/sotto.webp"
@@ -18436,7 +18685,7 @@
       "added": "2026-11-04T14:38:05Z",
       "score": 88.6,
       "likes": 8,
-      "stars": 328,
+      "stars": 333,
       "license": "AGPL-3.0",
       "icon": "assets/icons/sshyard.webp",
       "shot": "assets/shots/sshyard.webp"
@@ -18754,7 +19003,7 @@
         "ko": "Go로 작성하고 MyGo의 네이티브 UI로 그린 2Libra 커뮤니티 비공식 클라이언트로, WebView 없이 Windows, macOS, Linux에서 동작합니다. 2Libra 계정으로 로그인해 인기·최신 피드와 Markdown으로 렌더링된 글을 읽고, 별도 창에서 글과 댓글을 쓰며, 알림을 실시간으로 받고, 코인 확인과 전체 검색을 할 수 있습니다. 2Libra와는 관련 없는 개인 프로젝트입니다."
       },
       "added": "2026-11-14T02:29:31Z",
-      "score": 52.2,
+      "score": 52.6,
       "likes": 0,
       "stars": 2,
       "license": "MIT",
@@ -18789,9 +19038,9 @@
         "ko": "Tailscale용 분할 터널링 클라이언트입니다. sing-box 규칙으로 도메인과 IP별로 출구 노드를 거칠 트래픽과 직접 연결할 트래픽을 나누고, 여러 Tailnet의 출구를 동시에 쓸 수 있습니다. 글로벌 모드에서는 출구가 오프라인이 되면 트래픽을 차단합니다. MyGo로 만든 것은 macOS·Windows 데스크톱 앱으로, 창과 트레이에서 웹 설정 화면을 엽니다. Linux에는 CLI만 제공합니다."
       },
       "added": "2026-11-11T02:28:27Z",
-      "score": 76.1,
+      "score": 76.4,
       "likes": 1,
-      "stars": 154,
+      "stars": 155,
       "license": "GPL-3.0",
       "icon": "assets/icons/tailsplit.webp",
       "shot": "assets/shots/tailsplit.webp"
@@ -18862,9 +19111,9 @@
         "ko": "TanGit은 MyGo의 네이티브 UI에 Lazygit의 Git 엔진을 얹어 선택한 줄만 스테이징하고, 나란히 차이를 보고, 커밋 그래프에서 기록을 정리하며, 충돌을 헝크 단위로 해결하고, 언어 서버를 지원하는 내장 편집기에서 코드를 고칠 수 있습니다. macOS, Windows, Linux용으로 빌드되며 Electron이나 내장 브라우저를 쓰지 않고, 내려받는 파일은 약 12 MB, 메모리 사용량은 약 70 MB입니다."
       },
       "added": "2026-11-10T06:32:18Z",
-      "score": 67.5,
+      "score": 67.7,
       "likes": 1,
-      "stars": 19,
+      "stars": 20,
       "license": "MIT",
       "icon": "assets/icons/tangit.webp",
       "shot": "assets/shots/tangit.webp"
@@ -19116,6 +19365,42 @@
       "license": "MIT",
       "icon": "assets/icons/thesio.webp",
       "shot": "assets/shots/thesio.webp"
+    },
+    {
+      "slug": "thesourcebox",
+      "name": "TheSourceBox",
+      "author": "cofcool",
+      "kind": "web",
+      "platforms": [
+        "win",
+        "linux",
+        "mac"
+      ],
+      "group": "system",
+      "category": null,
+      "url": "https://github.com/cofcool/sourcebox",
+      "repo": "cofcool/sourcebox",
+      "summary": {
+        "en": "Desktop client for a local toolbox: string converters, file tools, LAN sharing, todos and a timer.",
+        "zh-CN": "本地小工具箱的桌面客户端：字符串转换、文件处理、局域网传文件、待办和番茄钟。",
+        "zh-TW": "本機小工具箱的桌面用戶端：字串轉換、檔案處理、區域網路傳檔、待辦和番茄鐘。",
+        "ja": "便利ツール集のデスクトップクライアント。文字列変換、ファイル処理、LAN 共有、ToDo、ポモドーロ。",
+        "ko": "로컬 도구 모음의 데스크톱 클라이언트. 문자열 변환, 파일 처리, LAN 공유, 할 일, 뽀모도로."
+      },
+      "description": {
+        "en": "The desktop client of TheSourceBox, a toolbox whose tools run in a local Java service built on Vert.x. MyGo wraps its web frontend; the service and the command-line, web and Android clients are made otherwise. Its tools include md5, base64 and timestamp conversions, saving web pages as Markdown or EPUB, batch renaming, duplicate file search, LAN file sharing, a todo list and a pomodoro timer.",
+        "zh-CN": "TheSourceBox（秘源宝箱）的桌面客户端。各项工具运行在基于 Vert.x 的本地 Java 后台服务中，MyGo 负责封装它的 Web 前端，后台服务以及命令行、Web 与 Android 客户端另行构建。工具包括 md5、base64、时间戳等字符串转换，网页保存为 Markdown 或 EPUB，批量重命名，查找重复文件，局域网文件分享，以及待办清单和番茄钟。",
+        "zh-TW": "TheSourceBox（秘源寶箱）的桌面用戶端。各項工具執行於以 Vert.x 打造的本機 Java 背景服務，MyGo 負責包裝它的 Web 前端，背景服務以及命令列、Web 與 Android 用戶端則另行建置。工具包括 md5、base64、時間戳記等字串轉換，網頁存成 Markdown 或 EPUB，批次重新命名，尋找重複檔案，區域網路檔案分享，以及待辦清單和番茄鐘。",
+        "ja": "TheSourceBox のデスクトップクライアント。各ツールは Vert.x ベースのローカル Java サービスで動き、MyGo はその Web フロントエンドを包んでいます。サービス本体とコマンドライン、Web、Android の各クライアントは別の方法で作られています。md5、base64、タイムスタンプなどの文字列変換、Web ページの Markdown・EPUB 保存、一括リネーム、重複ファイル検索、LAN でのファイル共有、ToDo、ポモドーロタイマーを備えます。",
+        "ko": "TheSourceBox의 데스크톱 클라이언트입니다. 각 도구는 Vert.x 기반 로컬 Java 서비스에서 실행되며, MyGo는 그 웹 프런트엔드를 감쌉니다. 서비스 본체와 명령줄, 웹, Android 클라이언트는 따로 만들어집니다. md5, base64, 타임스탬프 같은 문자열 변환, 웹 페이지를 Markdown이나 EPUB으로 저장, 일괄 이름 변경, 중복 파일 찾기, LAN 파일 공유, 할 일 목록과 뽀모도로 타이머를 갖추고 있습니다."
+      },
+      "added": "2026-11-27T02:31:44Z",
+      "score": 33.5,
+      "likes": 0,
+      "stars": null,
+      "license": null,
+      "icon": "assets/icons/thesourcebox.webp",
+      "shot": "assets/shots/thesourcebox.webp"
     },
     {
       "slug": "thunderstrike-controller-tool",
@@ -19497,9 +19782,9 @@
         "ko": "macOS와 Windows에서 보는 모든 것에 실시간 이중 언어 자막을. 자막 없는 애니메이션, VTuber 방송부터 게임과 회의까지 컴퓨터가 재생하는 소리를 듣고, 어떤 앱 위에든 각 문장과 번역을 보여줍니다."
       },
       "added": "2026-11-04T02:24:49Z",
-      "score": 90.5,
+      "score": 90.7,
       "likes": 10,
-      "stars": 435,
+      "stars": 454,
       "license": "GPL-3.0",
       "icon": "assets/icons/tomoru.webp",
       "shot": "assets/shots/tomoru.webp"
@@ -20000,7 +20285,7 @@
       "added": "2026-11-26T02:31:39Z",
       "score": 84.5,
       "likes": 1,
-      "stars": 2084,
+      "stars": 2089,
       "license": "AGPL-3.0",
       "icon": "assets/icons/uniclipboard.webp",
       "shot": "assets/shots/uniclipboard.webp"
@@ -20599,7 +20884,7 @@
         "ko": "PowerToys Run과 비슷한 키보드 중심 Windows 런처로, MyGo의 네이티브 UI로 그렸습니다. 시스템 트레이에 상주하는 실행 파일 하나뿐이며 .NET, WebView, 외부 런타임이 필요 없습니다. 시작 메뉴 앱을 병음과 퍼지 매칭으로 실행하고 창 전환과 클립보드 기록을 지원하며, 11개의 내장 플러그인에는 계산기, Windows Terminal 프로필, 최근 Zed·VS Code 작업 공간, 절전 방지 등이 있습니다."
       },
       "added": "2026-11-06T03:54:55Z",
-      "score": 52.7,
+      "score": 53.0,
       "likes": 0,
       "stars": 1,
       "license": "MIT",
@@ -20774,7 +21059,7 @@
       "added": "2026-11-05T14:23:33Z",
       "score": 80.6,
       "likes": 0,
-      "stars": 924,
+      "stars": 927,
       "license": "Apache-2.0",
       "icon": "assets/icons/voxtmini.webp",
       "shot": "assets/shots/voxtmini.webp"
@@ -21198,7 +21483,7 @@
       "added": "2026-11-05T00:50:09Z",
       "score": 75.1,
       "likes": 0,
-      "stars": 101,
+      "stars": 102,
       "license": "MIT",
       "icon": "assets/icons/wintray.webp",
       "shot": "assets/shots/wintray.webp"
@@ -21410,9 +21695,9 @@
         "ko": "macOS 13 이상에서 동작하는 플레이어로, MyGo의 네이티브 UI로 그렸으며 웹 프런트엔드가 없습니다. 자신의 TVBox 설정이나 IPTV 목록을 가져오면 제목으로 여러 소스를 한꺼번에 검색하고, 회선과 회차를 골라 재생하며, 지난번에 보던 곳부터 이어 볼 수 있습니다. mp4, m3u8 링크도 바로 열 수 있습니다. 小幕는 플레이어일 뿐 영상 콘텐츠를 제공하지 않습니다."
       },
       "added": "2026-11-18T03:27:23Z",
-      "score": 66.2,
+      "score": 66.6,
       "likes": 7,
-      "stars": 70,
+      "stars": 71,
       "license": "NOASSERTION",
       "icon": "assets/icons/xiaomu-desktop.webp",
       "shot": "assets/shots/xiaomu-desktop.webp"
@@ -21700,7 +21985,7 @@
         "ko": "macOS, Linux, Windows용 비공식 YouTube Music 플레이어로, 웹 페이지를 띄우지 않고 MyGo의 네이티브 UI로 그려 메모리를 약 100MB 사용합니다. Google 계정 로그인 여부와 관계없이 음악과 팟캐스트를 재생하며, 싱크 가사, Last.fm 스크로블, 이퀄라이저를 갖췄습니다. 재생에는 yt-dlp와 ffmpeg를 쓰며, Windows 빌드는 아직 테스트되지 않았습니다."
       },
       "added": "2026-11-05T05:19:24Z",
-      "score": 42.9,
+      "score": 44.0,
       "likes": 0,
       "stars": 1,
       "license": "GPL-3.0",
@@ -22024,9 +22309,9 @@
         "ko": "MyGo의 네이티브 UI로 그린 가벼운 텍스트 편집기로, WebView, 플러그인, 클라우드 동기화, Git, AI가 없습니다. 프로젝트 폴더를 파일 트리로 열고, 좌우·상하 분할 편집, Markdown 네이티브 미리보기, 열린 파일 전체 검색을 지원합니다. 스니펫은 그룹별로 관리해 커서 위치에 삽입하고, 내장 테마 20가지는 시스템 설정을 따를 수 있으며, 화면은 중국어와 영어를 지원합니다."
       },
       "added": "2026-11-26T02:31:39Z",
-      "score": 60.9,
-      "likes": 0,
-      "stars": 67,
+      "score": 64.8,
+      "likes": 1,
+      "stars": 78,
       "license": "AGPL-3.0",
       "icon": "assets/icons/zpad.webp",
       "shot": "assets/shots/zpad.webp"
